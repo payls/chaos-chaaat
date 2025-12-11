@@ -1,0 +1,7 @@
+{
+  "ignore": ["public/docs/*"],
+  "events": {
+    "restart": "npm run apidoc"
+  },
+  "delay": 200
+}

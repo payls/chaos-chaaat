@@ -1,0 +1,220 @@
+# This is a sample build configuration for JavaScript.
+# Check our guides at https://confluence.atlassian.com/x/14UWN for more examples.
+# Only use spaces to indent your .yml configuration.
+# -----
+# You can specify a custom docker image from Docker Hub as your build environment.
+image: atlassian/default-image:2
+pipelines:
+  branches:
+    "staging":
+      - step:
+          name: "Feature CI"
+          image: node:20.13.1
+          caches:
+            - node
+          services:
+            - mysql
+          script:
+            - export NODE_OPTIONS=--max-old-space-size=3072
+            - git clone git@bitbucket.org:pave/pave_job_api_workflows.git
+            - cd pave_job_api_workflows
+            - npm install
+            - cd ..
+            - npm install
+            - npm i -g forever eslint@7.32.0
+            - forever start server.js
+      - step:
+          name: "Build Staging PAVE Job API Workflows"
+          script:
+            - zip -r application.zip . --exclude=*.git* --exclude=node_module*
+          artifacts:
+            - application.zip
+      - step:
+          name: "Deploy to Staging"
+          deployment: staging
+          script:
+            - pipe: atlassian/aws-elasticbeanstalk-deploy:0.5.0
+              variables:
+                AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID_STAGING
+                AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY_STAGING
+                AWS_DEFAULT_REGION: "ap-southeast-1"
+                APPLICATION_NAME: "pave-job-api-workflows-staging"
+                ENVIRONMENT_NAME: "chaaat-job-api-workflows-stg-arm-64"
+                ZIP_FILE: "application.zip"
+                VERSION_LABEL: "deploy-$BITBUCKET_BUILD_NUMBER-main"
+                WAIT: "true"
+    "master":
+      - step:
+          name: "Feature CI"
+          image: node:20.13.1
+          caches:
+            - node
+          services:
+            - mysql
+          script:
+            - export NODE_OPTIONS=--max-old-space-size=3072
+            - git clone git@bitbucket.org:pave/pave_job_api_workflows.git
+            - cd pave_job_api_workflows
+            - npm install
+            - cd ..
+            - npm install
+            - npm i -g forever eslint@7.32.0
+            - forever start server.js
+      - step:
+          name: "Build PROD PAVE Job API Workflows"
+          script:
+            - zip -r application.zip . --exclude=*.git* --exclude=node_module*
+          artifacts:
+            - application.zip
+      - parallel:
+          steps:
+            - step:
+                name: "Deploy to Production chaaat-workflows-allprocess-arm-64"
+                script:
+                  - pipe: atlassian/aws-elasticbeanstalk-deploy:0.5.0
+                    variables:
+                      AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID_PRODUCTION
+                      AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY_PRODUCTION
+                      AWS_DEFAULT_REGION: "ap-southeast-1"
+                      APPLICATION_NAME: "pave-job-api-workflows"
+                      ENVIRONMENT_NAME: "chaaat-workflows-allprocess-arm-64"
+                      ZIP_FILE: "application.zip"
+                      VERSION_LABEL: "deploy-$BITBUCKET_BUILD_NUMBER-main"
+                      WAIT: "true"
+                      NODE_ENV: "production"
+            - step:
+                name: "Deploy to Production chaaat-wf-bulkcreateproposal-arm-64"
+                script:
+                  - pipe: atlassian/aws-elasticbeanstalk-deploy:0.5.0
+                    variables:
+                      AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID_PRODUCTION
+                      AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY_PRODUCTION
+                      AWS_DEFAULT_REGION: "ap-southeast-1"
+                      APPLICATION_NAME: "pave-job-api-workflows"
+                      ENVIRONMENT_NAME: "chaaat-wf-bulkcreateproposal-arm-64"
+                      ZIP_FILE: "application.zip"
+                      VERSION_LABEL: "deploy-$BITBUCKET_BUILD_NUMBER-bulk-create-proposal"
+                      WAIT: "true"
+                      NODE_ENV: "production"
+            - step:
+                name: "Deploy to Production chaaat-wf-createproposal-arm-64"
+                script:
+                  - pipe: atlassian/aws-elasticbeanstalk-deploy:0.5.0
+                    variables:
+                      AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID_PRODUCTION
+                      AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY_PRODUCTION
+                      AWS_DEFAULT_REGION: "ap-southeast-1"
+                      APPLICATION_NAME: "pave-job-api-workflows"
+                      ENVIRONMENT_NAME: "chaaat-wf-createproposal-arm-64"
+                      ZIP_FILE: "application.zip"
+                      VERSION_LABEL: "deploy-$BITBUCKET_BUILD_NUMBER-create-proposal"
+                      WAIT: "true"
+                      NODE_ENV: "production"
+            - step:
+                name: "Deploy to Production chaaat-wf-wapayloadProcessor-arm-64"
+                script:
+                  - pipe: atlassian/aws-elasticbeanstalk-deploy:0.5.0
+                    variables:
+                      AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID_PRODUCTION
+                      AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY_PRODUCTION
+                      AWS_DEFAULT_REGION: "ap-southeast-1"
+                      APPLICATION_NAME: "pave-job-api-workflows"
+                      ENVIRONMENT_NAME: "chaaat-wf-wapayloadProcessor-arm-64"
+                      ZIP_FILE: "application.zip"
+                      VERSION_LABEL: "deploy-$BITBUCKET_BUILD_NUMBER-wa-payload-processor"
+                      WAIT: "true"
+                      NODE_ENV: "production"
+            - step:
+                name: "Deploy to Production chaaat-wf-wastatusdataProcessor-arm-64"
+                script:
+                  - pipe: atlassian/aws-elasticbeanstalk-deploy:0.5.0
+                    variables:
+                      AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID_PRODUCTION
+                      AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY_PRODUCTION
+                      AWS_DEFAULT_REGION: "ap-southeast-1"
+                      APPLICATION_NAME: "pave-job-api-workflows"
+                      ENVIRONMENT_NAME: "chaaat-wf-wastatusdataProcessor-arm-64"
+                      ZIP_FILE: "application.zip"
+                      VERSION_LABEL: "deploy-$BITBUCKET_BUILD_NUMBER-wa-status-data-processor"
+                      WAIT: "true"
+                      NODE_ENV: "production"
+            - step:
+                name: "Deploy to Production chaaat-wf-lcpayloadprocessor-arm-64"
+                script:
+                  - pipe: atlassian/aws-elasticbeanstalk-deploy:0.5.0
+                    variables:
+                      AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID_PRODUCTION
+                      AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY_PRODUCTION
+                      AWS_DEFAULT_REGION: "ap-southeast-1"
+                      APPLICATION_NAME: "pave-job-api-workflows"
+                      ENVIRONMENT_NAME: "chaaat-wf-lcpayloadprocessor-arm-64"
+                      ZIP_FILE: "application.zip"
+                      VERSION_LABEL: "deploy-$BITBUCKET_BUILD_NUMBER-livechat-payload-processor"
+                      WAIT: "true"
+                      NODE_ENV: "production"
+    # temporary deployment
+    'update/CT-1065':
+      - step:
+          name: "Feature CI"
+          image: node:20.13.1
+          caches:
+            - node
+          services:
+            - mysql
+          script:
+            - export NODE_OPTIONS=--max-old-space-size=3072
+            - git clone git@bitbucket.org:pave/pave_job_api_workflows.git
+            - cd pave_job_api_workflows
+            - npm install
+            - cd ..
+            - npm install
+            - npm i -g forever eslint@7.32.0
+            - forever start server.js
+      - step:
+          name: "Build Staging PAVE Job API Workflows"
+          script:
+            - zip -r application.zip . --exclude=*.git* --exclude=node_module*
+          artifacts:
+            - application.zip
+      - step:
+          name: "Deploy to Staging"
+          deployment: staging
+          script:
+            - pipe: atlassian/aws-elasticbeanstalk-deploy:0.5.0
+              variables:
+                AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID_STAGING
+                AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY_STAGING
+                AWS_DEFAULT_REGION: "ap-southeast-1"
+                APPLICATION_NAME: "pave-job-api-workflows-staging"
+                ENVIRONMENT_NAME: "chaaat-job-api-workflows-stg-node-20-2"
+                ZIP_FILE: "application.zip"
+                VERSION_LABEL: "deploy-CT-1065-$BITBUCKET_BUILD_NUMBER-main"
+                WAIT: "true"
+    "feature/*,bugfix/*,hotfix/*,release/*":
+      - step:
+          name: "Feature CI"
+          image: node:14.19.0
+          caches:
+            - node
+          services:
+            - mysql
+          script:
+            - export NODE_OPTIONS=--max-old-space-size=3072
+            - git clone git@bitbucket.org:pave/pave_job_api_workflows.git
+            - cd pave_job_api_workflows
+            - npm install
+            - cd ..
+            - npm install
+            - npm i -g forever eslint@7.32.0
+            - forever start server.js
+
+definitions:
+  services:
+    mysql:
+      image: mysql:5.7
+      memory: 512 # memory: 1024  # default value
+      variables:
+        MYSQL_DATABASE: pave_development
+        MYSQL_USER: pavewebmaster
+        MYSQL_PASSWORD: ZM3z8LvwwQW6pmEePrz7NRUv8
+        MYSQL_ROOT_PASSWORD: pavewebmaster
