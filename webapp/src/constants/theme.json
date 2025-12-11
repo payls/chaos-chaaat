@@ -1,0 +1,1151 @@
+{
+  "default": {
+    "agencyLogoSize": { "width": "30%" },
+    "topLogoWrapper": { "background": "#FAFBFB" },
+    "agentProfile": {
+      "container": { "background": "#FAFBFB" },
+      "name": { "color": "#182327" },
+      "title": { "color": "#182327" },
+      "readmore": { "color": "#182327" },
+      "description": { "color": "#182327" },
+      "socialIcon": {
+        "icon": { "color": "#182327" },
+        "background": { "background": "#E6ECEC" }
+      },
+      "socialLink": { "color": "#182327" }
+    },
+    "table": {
+      "header": { "color": "#182327" },
+      "value": { "color": "#182327" },
+      "hover": { "background": "#2A5245" },
+      "nav": { "color": "#182327" },
+      "bgBorder": { "background": "#2A5245", "border": "1px solid #2A5245" }
+    },
+    "carousel": {
+      "tagActiveBgColor": "#182327",
+      "tagTextColor": "#fff"
+    },
+    "bookmark": {
+      "color": "#182327",
+      "background": "#F2F2F2"
+    },
+    "details": {
+      "title": "#182327",
+      "content": "#182327"
+    },
+    "projectFeatures": {
+      "title": "#182327",
+      "textColor": "#182327",
+      "iconBg": "#DEE1E0",
+      "iconColor": "#182327",
+      "iconBorder": "#DEE1E0",
+      "background": "#F2F2F2"
+    },
+    "projectInfo": {
+      "background": "#fff",
+      "title": "#182327",
+      "content": "#182327",
+      "chevron": "#182327",
+      "separator": { "borderBottom": "1px solid #DEE1E0" }
+    },
+    "projectLocation": {
+      "titleColor": "#182327",
+      "background": "#fff"
+    },
+    "propertyDetails": {
+      "titleColor": "#182327",
+      "background": "#F2F2F2",
+      "iconColor": "#908E8E",
+      "iconColor2": "#908E8E",
+      "textColor": "#182327",
+      "price": "#5A6264",
+      "unit": "#182327"
+    },
+    "message": {
+      "background": "#eff2f6",
+      "button": "rgb(4, 34, 30)"
+    },
+    "reservation": {
+      "background": "#182327"
+    },
+    "options": {
+      "background": "#182327"
+    },
+    "footer": {
+      "background": "#fff",
+      "invert": false,
+      "text": "#182327"
+    }
+  },
+  "raeon": {
+    "agencyLogoSize": { "width": "60%" },
+    "topLogoWrapper": { "background": "white" },
+    "agentProfile": {
+      "container": { "background": "white" },
+      "name": { "color": "#002030" },
+      "title": { "color": "#002030" },
+      "readmore": { "color": "#002030" },
+      "description": { "color": "#002030" },
+      "socialIcon": {
+        "icon": { "color": "#0086A4" },
+        "background": { "background": "#E1F4FD" }
+      },
+      "socialLink": { "color": "#002030" }
+    },
+    "table": {
+      "header": { "color": "#131313" },
+      "value": { "color": "#626970" },
+      "hover": { "background": "#0086A4" },
+      "nav": { "color": "#131313" },
+      "bgBorder": { "background": "#0086A4", "border": "1px solid #0086A4" }
+    },
+    "carousel": {
+      "tagActiveBgColor": "#0086A4",
+      "tagTextColor": "white"
+    },
+    "bookmark": {
+      "color": "#0086A4",
+      "background": "#E1F4FD"
+    },
+    "details": {
+      "title": "#002030",
+      "content": "rgba(0, 32, 48, 0.7)"
+    },
+    "projectFeatures": {
+      "title": "white",
+      "textColor": "white",
+      "iconBg": "white",
+      "iconColor": "#0086A4",
+      "iconBorder": "white",
+      "background": "#0086A4"
+    },
+    "projectInfo": {
+      "background": "#DCF0F4",
+      "title": "#002030",
+      "content": "rgba(0, 32, 48, 0.7)",
+      "chevron": "#707070",
+      "separator": { "borderBottom": "1px solid #AAB6B8" }
+    },
+    "projectLocation": {
+      "titleColor": "#002030",
+      "background": "white"
+    },
+    "propertyDetails": {
+      "titleColor": "#002030",
+      "background": "white",
+      "iconColor": "#0086A4",
+      "iconColor2": "#0086A4",
+      "textColor": "#002030",
+      "price": "#0086A4",
+      "unit": "#131313"
+    },
+    "message": {
+      "background": "#E1F4FD",
+      "button": "#E1F4FD",
+      "color": "#0086A4"
+    },
+    "reservation": {
+      "background": "#0086A4"
+    },
+    "options": {
+      "background": "#002030"
+    },
+    "footer": {
+      "background": "white",
+      "invert": false,
+      "text": "#002030"
+    }
+  },
+  "ogps": {
+    "agencyLogoSize": { "width": "30%" },
+    "topLogoWrapper": { "background": "#000" },
+    "agentProfile": {
+      "container": { "background": "#e5e2dc" },
+      "name": { "color": "#000" },
+      "title": { "color": "#a58561" },
+      "readmore": { "color": "#a58561" },
+      "description": { "color": "#000" },
+      "socialIcon": {
+        "icon": { "color": "#a58561" },
+        "background": { "background": "#E6ECEC" }
+      },
+      "socialLink": { "color": "#000" }
+    },
+    "table": {
+      "header": { "color": "#131313" },
+      "value": { "color": "#626970" },
+      "hover": { "background": "#a58561" },
+      "nav": { "color": "#131313" },
+      "bgBorder": { "background": "#a58561", "border": "1px solid #a58561" }
+    },
+    "carousel": {
+      "tagActiveBgColor": "#28201b",
+      "tagTextColor": "white"
+    },
+    "bookmark": {
+      "color": "#a58561",
+      "background": "#E6ECEC"
+    },
+    "details": {
+      "title": "#000",
+      "content": "#626970"
+    },
+    "projectFeatures": {
+      "title": "white",
+      "textColor": "white",
+      "iconBg": "#000",
+      "iconColor": "#a58561",
+      "iconBorder": "#a58561",
+      "background": "#000"
+    },
+    "projectInfo": {
+      "background": "#e5e2dc",
+      "title": "#28201b",
+      "content": "#a58561",
+      "chevron": "#49433f",
+      "separator": { "borderBottom": "1px solid #b1b1b1" }
+    },
+    "projectLocation": {
+      "titleColor": "#131313",
+      "background": "white"
+    },
+    "propertyDetails": {
+      "titleColor": "#131313",
+      "background": "#E6ECEC",
+      "iconColor": "#a58561",
+      "iconColor2": "#a58561",
+      "textColor": "#28201b",
+      "price": "#28201b",
+      "unit": "#a58561"
+    },
+    "message": {
+      "background": "#eff2f6",
+      "button": "rgb(4, 34, 30)"
+    },
+    "reservation": {
+      "background": "#131313"
+    },
+    "options": {
+      "background": "#131313"
+    },
+    "footer": {
+      "background": "#000",
+      "invert": false,
+      "text": "white"
+    }
+  },
+  "louise": {
+    "agencyLogoSize": { "width": "30%" },
+    "topLogoWrapper": { "background": "#ED6D5E" },
+    "agentProfile": {
+      "container": { "background": "#D4D4D4" },
+      "name": { "color": "#000" },
+      "title": { "color": "#1c1c1c" },
+      "readmore": { "color": "#1c1c1c" },
+      "description": { "color": "#1c1c1c" },
+      "socialIcon": {
+        "icon": { "color": "#ED6D5E" },
+        "background": { "background": "#E6ECEC" }
+      },
+      "socialLink": { "color": "#000" }
+    },
+    "table": {
+      "header": { "color": "#131313" },
+      "value": { "color": "#626970" },
+      "hover": { "background": "#ED6D5E" },
+      "nav": { "color": "#131313" },
+      "bgBorder": { "background": "#ED6D5E", "border": "1px solid #ED6D5E" }
+    },
+    "carousel": {
+      "tagActiveBgColor": "#ED6D5E",
+      "tagTextColor": "white"
+    },
+    "bookmark": {
+      "color": "#ED6D5E",
+      "background": "#E6ECEC"
+    },
+    "details": {
+      "title": "#131313",
+      "content": "#626970"
+    },
+    "projectFeatures": {
+      "title": "white",
+      "textColor": "white",
+      "iconBg": "#edebe7",
+      "iconColor": "#ED6D5E",
+      "iconBorder": "#ED6D5E",
+      "background": "#ED6D5E"
+    },
+    "projectInfo": {
+      "background": "#D4D4D4",
+      "title": "#191919",
+      "content": "#626970",
+      "chevron": "#28303F",
+      "separator": { "borderBottom": "1px solid #8b8b8b" }
+    },
+    "projectLocation": {
+      "titleColor": "#131313",
+      "background": "#fff"
+    },
+    "propertyDetails": {
+      "titleColor": "#131313",
+      "background": "#E6ECEC",
+      "iconColor": "#ED6D5E",
+      "iconColor2": "#ED6D5E",
+      "textColor": "#ED6D5E",
+      "price": "#ED6D5E",
+      "unit": "#ED6D5E"
+    },
+    "message": {
+      "background": "#eff2f6",
+      "button": "rgb(4, 34, 30)"
+    },
+    "reservation": {
+      "background": "#ED6D5E"
+    },
+    "options": {
+      "background": "#ED6D5E"
+    },
+    "footer": {
+      "background": "#ED6D5E",
+      "invert": false,
+      "text": "white"
+    }
+  },
+  "eco": {
+    "agencyLogoSize": { "width": "30%" },
+    "topLogoWrapper": { "background": "white" },
+    "agentProfile": {
+      "container": { "background": "white" },
+      "name": { "color": "#131313" },
+      "title": { "color": "#949799" },
+      "readmore": { "color": "#131313" },
+      "description": { "color": "#949799" },
+      "socialIcon": {
+        "icon": { "color": "#8C827A" },
+        "background": { "background": "#ECE6E1" }
+      },
+      "socialLink": { "color": "#8C827A" }
+    },
+    "table": {
+      "header": { "color": "#131313" },
+      "value": { "color": "#626970" },
+      "hover": { "background": "#8C827A" },
+      "nav": { "color": "#131313" },
+      "bgBorder": { "background": "#8C827A", "border": "1px solid #8C827A" }
+    },
+    "carousel": {
+      "tagActiveBgColor": "#8C827A",
+      "tagTextColor": "white"
+    },
+    "bookmark": {
+      "color": "#8C827A",
+      "background": "#ECE6E1"
+    },
+    "details": {
+      "title": "#131313",
+      "content": "#626970"
+    },
+    "projectFeatures": {
+      "title": "white",
+      "textColor": "white",
+      "iconBg": "white",
+      "iconColor": "#8C827A",
+      "iconBorder": "white",
+      "background": "#8C827A"
+    },
+    "projectInfo": {
+      "background": "#EFE6DE",
+      "title": "#131313",
+      "content": "#949799",
+      "chevron": "#131313",
+      "separator": { "borderBottom": "1px solid #949799" }
+    },
+    "projectLocation": {
+      "titleColor": "#131313",
+      "background": "white"
+    },
+    "propertyDetails": {
+      "titleColor": "#131313",
+      "background": "#F1F0EC",
+      "iconColor": "#4F4637",
+      "iconColor2": "#4F4637",
+      "textColor": "#131313",
+      "price": "#131313",
+      "unit": "#8C827A"
+    },
+    "message": {
+      "background": "#ECE6E1",
+      "button": "#B4ACA7"
+    },
+    "reservation": {
+      "background": "#8C827A"
+    },
+    "options": {
+      "background": "#8C827A"
+    },
+    "footer": {
+      "background": "white",
+      "invert": false,
+      "text": "#131313"
+    }
+  },
+  "amity": {
+    "agencyLogoSize": { "width": "60%" },
+    "topLogoWrapper": { "background": "white" },
+    "agentProfile": {
+      "container": { "background": "white" },
+      "name": { "color": "#434a54" },
+      "title": { "color": "#656d78" },
+      "readmore": { "color": "#656d78" },
+      "description": { "color": "#656d78" },
+      "socialIcon": {
+        "icon": { "color": "#177ec1" },
+        "background": { "background": "#E1F4FD" }
+      },
+      "socialLink": { "color": "#656d78" }
+    },
+    "table": {
+      "header": { "color": "#131313" },
+      "value": { "color": "#626970" },
+      "hover": { "background": "#177ec1" },
+      "nav": { "color": "#131313" },
+      "bgBorder": { "background": "#177ec1", "border": "1px solid #177ec1" }
+    },
+    "carousel": {
+      "tagActiveBgColor": "#177ec1",
+      "tagTextColor": "white"
+    },
+    "bookmark": {
+      "color": "#177ec1",
+      "background": "#E1F4FD"
+    },
+    "details": {
+      "title": "#656d78",
+      "content": "rgba(0, 32, 48, 0.7)"
+    },
+    "projectFeatures": {
+      "title": "white",
+      "textColor": "white",
+      "iconBg": "white",
+      "iconColor": "#818488",
+      "iconBorder": "white",
+      "background": "#434a54"
+    },
+    "projectInfo": {
+      "background": "#f1f2f6",
+      "title": "#656d78",
+      "content": "rgba(0, 32, 48, 0.7)",
+      "chevron": "#707070",
+      "separator": { "borderBottom": "1px solid #AAB6B8" }
+    },
+    "projectLocation": {
+      "titleColor": "#656d78",
+      "background": "white"
+    },
+    "propertyDetails": {
+      "titleColor": "#656d78",
+      "background": "white",
+      "iconColor": "#177ec1",
+      "iconColor2": "#177ec1",
+      "textColor": "#656d78",
+      "price": "#656d78",
+      "unit": "#177ec1"
+    },
+    "message": {
+      "background": "#f1f2f6",
+      "button": "#f16162",
+      "color": "white"
+    },
+    "reservation": {
+      "background": "#f16162"
+    },
+    "options": {
+      "background": "#f16162"
+    },
+    "footer": {
+      "background": "white",
+      "invert": false,
+      "text": "#656d78"
+    }
+  },
+  "republik": {
+    "agencyLogoSize": { "width": "30%" },
+    "topLogoWrapper": { "background": "#000" },
+    "agentProfile": {
+      "container": { "background": "#fafafa" },
+      "name": { "color": "#555" },
+      "title": { "color": "#555555" },
+      "readmore": { "color": "#555555" },
+      "description": { "color": "#555" },
+      "socialIcon": {
+        "icon": { "color": "#555555" },
+        "background": { "background": "#E6ECEC" }
+      },
+      "socialLink": { "color": "#555" }
+    },
+    "table": {
+      "header": { "color": "#131313" },
+      "value": { "color": "#626970" },
+      "hover": { "background": "#555555" },
+      "nav": { "color": "#131313" },
+      "bgBorder": { "background": "#555555", "border": "1px solid #555555" }
+    },
+    "carousel": {
+      "tagActiveBgColor": "#000",
+      "tagTextColor": "white"
+    },
+    "bookmark": {
+      "color": "#555555",
+      "background": "#fafafa"
+    },
+    "details": {
+      "title": "#555",
+      "content": "#555"
+    },
+    "projectFeatures": {
+      "title": "white",
+      "textColor": "white",
+      "iconBg": "#000",
+      "iconColor": "white",
+      "iconBorder": "white",
+      "background": "#000"
+    },
+    "projectInfo": {
+      "background": "#fafafa",
+      "title": "#28201b",
+      "content": "#555555",
+      "chevron": "#49433f",
+      "separator": { "borderBottom": "1px solid #b1b1b1" }
+    },
+    "projectLocation": {
+      "titleColor": "#555555",
+      "background": "white"
+    },
+    "propertyDetails": {
+      "titleColor": "#555555",
+      "background": "#fafafa",
+      "iconColor": "#555555",
+      "iconColor2": "#555555",
+      "textColor": "#28201b",
+      "price": "#28201b",
+      "unit": "#555555"
+    },
+    "message": {
+      "background": "#fafafa",
+      "button": "rgb(4, 34, 30)"
+    },
+    "reservation": {
+      "background": "#000"
+    },
+    "options": {
+      "background": "#000"
+    },
+    "footer": {
+      "background": "#000",
+      "invert": false,
+      "text": "white"
+    }
+  },
+  "castran": {
+    "agencyLogoSize": { "width": "30%" },
+    "topLogoWrapper": { "background": "#FAFBFB" },
+    "agentProfile": {
+      "container": { "background": "#FAFBFB" },
+      "name": { "color": "#404042" },
+      "title": { "color": "#404042" },
+      "readmore": { "color": "#404042" },
+      "description": { "color": "#404042" },
+      "socialIcon": {
+        "icon": { "color": "#f37820" },
+        "background": { "background": "#E6ECEC" }
+      },
+      "socialLink": { "color": "#404042" }
+    },
+    "table": {
+      "header": { "color": "#131313" },
+      "value": { "color": "#626970" },
+      "hover": { "background": "#f37820" },
+      "nav": { "color": "#131313" },
+      "bgBorder": { "background": "#f37820", "border": "1px solid #f37820" }
+    },
+    "carousel": {
+      "tagActiveBgColor": "#404042",
+      "tagTextColor": "white"
+    },
+    "bookmark": {
+      "color": "#f37820",
+      "background": "#f3f3f3"
+    },
+    "details": {
+      "title": "#404042",
+      "content": "#404042"
+    },
+    "projectFeatures": {
+      "title": "#fff",
+      "textColor": "#fff",
+      "iconBg": "#ffffff",
+      "iconColor": "#F37820",
+      "iconBorder": "#fff",
+      "background": "#404042"
+    },
+    "projectInfo": {
+      "background": "#EDEDED",
+      "title": "#404042",
+      "content": "#404042",
+      "chevron": "#404042",
+      "separator": { "borderBottom": "1px solid #d9d9d9" }
+    },
+    "projectLocation": {
+      "titleColor": "#404042",
+      "background": "white"
+    },
+    "propertyDetails": {
+      "titleColor": "#131313",
+      "background": "#F1F0EC",
+      "iconColor": "#908E8E",
+      "iconColor2": "#908E8E",
+      "textColor": "#131313",
+      "price": "#131313",
+      "unit": "#f37820"
+    },
+    "message": {
+      "background": "#EDEDED",
+      "button": "#F37820"
+    },
+    "reservation": {
+      "background": "#F37820"
+    },
+    "options": {
+      "background": "#F37820"
+    },
+    "footer": {
+      "background": "white",
+      "invert": false,
+      "text": "#131313"
+    }
+  },
+  "sth": {
+    "agencyLogoSize": { "width": "60%" },
+    "topLogoWrapper": { "background": "white" },
+    "agentProfile": {
+      "container": { "background": "white" },
+      "name": { "color": "#000" },
+      "title": { "color": "#000" },
+      "readmore": { "color": "#000" },
+      "description": { "color": "#000" },
+      "socialIcon": {
+        "icon": { "color": "#000" },
+        "background": { "background": "#E1F4FD" }
+      },
+      "socialLink": { "color": "#000" }
+    },
+    "table": {
+      "header": { "color": "#131313" },
+      "value": { "color": "#626970" },
+      "hover": { "background": "#000" },
+      "nav": { "color": "#131313" },
+      "bgBorder": { "background": "#000", "border": "1px solid #000" }
+    },
+    "carousel": {
+      "tagActiveBgColor": "#000",
+      "tagTextColor": "white"
+    },
+    "bookmark": {
+      "color": "#000",
+      "background": "#f3f3f3"
+    },
+    "details": {
+      "title": "#000",
+      "content": "rgba(0, 32, 48, 0.7)"
+    },
+    "projectFeatures": {
+      "title": "white",
+      "textColor": "white",
+      "iconBg": "#214d2c",
+      "iconColor": "#fff",
+      "iconBorder": "white",
+      "background": "#214d2c"
+    },
+    "projectInfo": {
+      "background": "#000",
+      "title": "#fff",
+      "content": "#fff",
+      "chevron": "#fff",
+      "separator": { "borderBottom": "1px solid #f2f2f2" }
+    },
+    "projectLocation": {
+      "titleColor": "#000",
+      "background": "white"
+    },
+    "propertyDetails": {
+      "titleColor": "#000",
+      "background": "white",
+      "iconColor": "#0086A4",
+      "iconColor2": "#0086A4",
+      "textColor": "#214d2c",
+      "price": "#214d2c",
+      "unit": "#000"
+    },
+    "message": {
+      "background": "#f2f2f2",
+      "button": "#214d2c",
+      "color": "#fff"
+    },
+    "reservation": {
+      "background": "#214d2c"
+    },
+    "options": {
+      "background": "#214d2c"
+    },
+    "footer": {
+      "background": "white",
+      "invert": false,
+      "text": "#000"
+    }
+  },
+  "360": {
+    "agencyLogoSize": { "width": "60%" },
+    "topLogoWrapper": { "background": "white" },
+    "agentProfile": {
+      "container": { "background": "white" },
+      "name": { "color": "#000" },
+      "title": { "color": "#777779" },
+      "readmore": { "color": "#777779" },
+      "description": { "color": "#777779" },
+      "socialIcon": {
+        "icon": { "color": "#777779" },
+        "background": { "background": "#E1F4FD" }
+      },
+      "socialLink": { "color": "#000" }
+    },
+    "table": {
+      "header": { "color": "#131313" },
+      "value": { "color": "#626970" },
+      "hover": { "background": "#000" },
+      "nav": { "color": "#131313" },
+      "bgBorder": { "background": "#000", "border": "1px solid #000" }
+    },
+    "carousel": {
+      "tagActiveBgColor": "#000",
+      "tagTextColor": "white"
+    },
+    "bookmark": {
+      "color": "#000",
+      "background": "#f3f3f3"
+    },
+    "details": {
+      "title": "#000",
+      "content": "#777779"
+    },
+    "projectFeatures": {
+      "title": "#000",
+      "textColor": "#777779",
+      "iconBg": "#777779",
+      "iconColor": "#fff",
+      "iconBorder": "white",
+      "background": "#f8f8f8"
+    },
+    "projectInfo": {
+      "background": "#000",
+      "title": "#fff",
+      "content": "#fff",
+      "chevron": "#fff",
+      "separator": { "borderBottom": "1px solid #f2f2f2" }
+    },
+    "projectLocation": {
+      "titleColor": "#000",
+      "background": "white"
+    },
+    "propertyDetails": {
+      "titleColor": "#000",
+      "background": "white",
+      "iconColor": "#000",
+      "iconColor2": "#000",
+      "textColor": "#000",
+      "price": "#777779",
+      "unit": "#000"
+    },
+    "message": {
+      "background": "#f2f2f2",
+      "button": "#000",
+      "color": "#fff"
+    },
+    "reservation": {
+      "background": "#000"
+    },
+    "options": {
+      "background": "#000"
+    },
+    "footer": {
+      "background": "white",
+      "invert": false,
+      "text": "#000"
+    }
+  },
+  "colliers": {
+    "agencyLogoSize": { "width": "30%" },
+    "topLogoWrapper": { "background": "#2A4390" },
+    "agentProfile": {
+      "container": { "background": "#2A4390" },
+      "name": { "color": "#fff" },
+      "title": { "color": "#fff" },
+      "readmore": { "color": "#fff" },
+      "description": { "color": "#fff" },
+      "socialIcon": {
+        "icon": { "color": "#fff" },
+        "background": { "background": "#fff" }
+      },
+      "socialLink": { "color": "#fff" }
+    },
+    "table": {
+      "header": { "color": "#25408f" },
+      "value": { "color": "#4a4a4d" },
+      "hover": { "background": "#2A4390" },
+      "nav": { "color": "#4a4a4d" },
+      "bgBorder": { "background": "#2A4390", "border": "1px solid #2A4390" }
+    },
+    "carousel": {
+      "tagActiveBgColor": "#25408f",
+      "tagTextColor": "#fff"
+    },
+    "bookmark": {
+      "color": "#25408f",
+      "background": "#F5F5F7"
+    },
+    "details": {
+      "title": "#4a4a4d",
+      "content": "#4a4a4d"
+    },
+    "projectFeatures": {
+      "title": "white",
+      "textColor": "white",
+      "iconBg": "#fff",
+      "iconColor": "#2A4390",
+      "iconBorder": "#fff",
+      "background": "#2a4390"
+    },
+    "projectInfo": {
+      "background": "rgb(244 244 244)",
+      "title": "#4a4a4d",
+      "content": "#4a4a4d",
+      "chevron": "#4a4a4d",
+      "separator": { "borderBottom": "1px solid #4a4a4d" }
+    },
+    "projectLocation": {
+      "titleColor": "#4a4a4d",
+      "background": "white"
+    },
+    "propertyDetails": {
+      "titleColor": "#4a4a4d",
+      "background": "#E6ECEC",
+      "iconColor": "#a58561",
+      "iconColor2": "#a58561",
+      "textColor": "#28201b",
+      "price": "#25408f",
+      "unit": "#28201b"
+    },
+    "message": {
+      "background": "#eff2f6",
+      "button": "#25408f"
+    },
+    "reservation": {
+      "background": "#25408f"
+    },
+    "options": {
+      "background": "#25408f"
+    },
+    "footer": {
+      "background": "#2A4390",
+      "invert": false,
+      "text": "white"
+    }
+  },
+  "ashtonhawks": {
+    "background": "#232e34",
+
+    "agencyLogoSize": { "width": "30%" },
+    "topLogoWrapper": { "background": "#000" },
+    "agentProfile": {
+      "container": { "background": "#121E25" },
+      "name": { "color": "#fff" },
+      "title": { "color": "#9d9d9d" },
+      "readmore": { "color": "#9d9d9d" },
+      "description": { "color": "#fff" },
+      "socialIcon": {
+        "icon": { "color": "#9d9d9d" },
+        "background": { "background": "#E6ECEC" }
+      },
+      "socialLink": { "color": "#fff" }
+    },
+    "project": {
+      "title": {
+        "color": "#fff"
+      }
+    },
+    "table": {
+      "header": {
+        "background": "#121e25 !important",
+        "color": "#fff",
+        "border": "1px solid #121e25"
+      },
+      "value": { "color": "#626970", "border": "1px solid #121e25" },
+      "hover": { "background": "#000" },
+      "nav": { "color": "#fff" },
+      "bgBorder": { "background": "#000", "border": "1px solid #000" },
+
+      "navigationWrapper": "#121e25",
+      "movingBg": "#232e34"
+    },
+    "carousel": {
+      "tagActiveBgColor": "#000",
+      "tagTextColor": "white"
+    },
+    "bookmark": {
+      "color": "#626970",
+      "background": "#E6ECEC"
+    },
+    "details": {
+      "title": "#fff",
+      "content": "#fff"
+    },
+    "projectFeatures": {
+      "title": "white",
+      "textColor": "white",
+      "iconBg": "#F2DFCE",
+      "iconColor": "#000",
+      "iconBorder": "#F2DFCE",
+      "background": "#121E25"
+    },
+    "projectInfo": {
+      "background": "#121e2575",
+      "title": "#fff",
+      "content": "#f2f2f2",
+      "chevron": "#f2f2f2",
+      "separator": { "borderBottom": "1px solid #f2f2f2" }
+    },
+    "projectLocation": {
+      "titleColor": "#fff",
+      "background": "#232e34"
+    },
+    "propertyDetails": {
+      "titleColor": "#fff",
+      "background": "#E6ECEC",
+      "iconColor": "#a58561",
+      "iconColor2": "#a58561",
+      "textColor": "#28201b",
+      "textColor2": "#9d9d9d",
+      "price": "#fff",
+      "unit": "#f2dfce"
+    },
+    "message": {
+      "background": "#eff2f6",
+      "button": "#131313"
+    },
+    "reservation": {
+      "background": "#131313"
+    },
+    "options": {
+      "background": "#131313"
+    },
+    "footer": {
+      "background": "#000",
+      "invert": false,
+      "text": "white"
+    },
+
+    "smallLabel": {
+      "color": "#fff"
+    },
+
+    "starBg": {
+      "background": "#1B272D"
+    }
+  },
+  "hum2n": {
+    "agencyLogoSize": { "width": "60%" },
+    "topLogoWrapper": { "background": "#041224" },
+    "agentProfile": {
+      "container": { "background": "white" },
+      "name": { "color": "#041224" },
+      "title": { "color": "#041224" },
+      "readmore": { "color": "#041224" },
+      "description": { "color": "#041224" },
+      "socialIcon": {
+        "icon": { "color": "#ff7700" },
+        "background": { "background": "#ff7700" }
+      },
+      "socialLink": { "color": "#041224" }
+    },
+    "table": {
+      "header": { "color": "#041224" },
+      "value": { "color": "#626970" },
+      "hover": { "background": "#041224" },
+      "nav": { "color": "#041224" },
+      "bgBorder": { "background": "#041224", "border": "1px solid #0086A4" }
+    },
+    "carousel": {
+      "tagActiveBgColor": "#041224",
+      "tagTextColor": "#fff"
+    },
+    "bookmark": {
+      "color": "#041224",
+      "background": "#ff7700"
+    },
+    "details": {
+      "title": "#041224",
+      "content": "rgba(0, 32, 48, 0.7)"
+    },
+    "projectFeatures": {
+      "title": "white",
+      "textColor": "white",
+      "iconBg": "#041224",
+      "iconColor": "#ff7700",
+      "iconBorder": "#ff7700",
+      "background": "#041224"
+    },
+    "projectInfo": {
+      "background": "#EBECF0",
+      "title": "#041224",
+      "content": "#041224",
+      "chevron": "#041224",
+      "separator": { "borderBottom": "1px solid rgba(4, 18, 36, 0.2)" }
+    },
+    "projectLocation": {
+      "titleColor": "#041224",
+      "background": "white"
+    },
+    "propertyDetails": {
+      "titleColor": "#041224",
+      "background": "white",
+      "iconColor": "#ff7700",
+      "iconColor2": "#ff7700",
+      "textColor": "#041224",
+      "price": "#ff7700",
+      "unit": "#131313"
+    },
+    "message": {
+      "background": "#E1F4FD",
+      "button": "#ff7700",
+      "color": "#041224"
+    },
+    "reservation": {
+      "background": "#ff7700",
+      "color": "#041224"
+    },
+    "options": {
+      "background": "#ff7700",
+      "color": "#041224"
+    },
+    "footer": {
+      "background": "#041224",
+      "invert": false,
+      "text": "#fff"
+    }
+  },
+  "strculture": {
+    "background": "#000",
+    "agencyLogoSize": { "width": "30%" },
+    "topLogoWrapper": { "background": "#000" },
+    "agentProfile": {
+      "container": { "background": "#000" },
+      "name": { "color": "#fff" },
+      "title": { "color": "#9d9d9d" },
+      "readmore": { "color": "#9d9d9d" },
+      "description": { "color": "#fff" },
+      "socialIcon": {
+        "icon": { "color": "#9d9d9d" },
+        "background": { "background": "#E6ECEC" }
+      },
+      "socialLink": { "color": "#fff" }
+    },
+    "project": {
+      "title": {
+        "color": "#fff"
+      }
+    },
+    "table": {
+      "header": {
+        "background": "#121e25 !important",
+        "color": "#fff",
+        "border": "1px solid #121e25"
+      },
+      "value": { "color": "#fff", "border": "1px solid #121e25" },
+      "hover": { "background": "#1d1d1d" },
+      "nav": { "color": "#fff" },
+      "bgBorder": { "background": "#000", "border": "1px solid #000" },
+
+      "navigationWrapper": "#121e25",
+      "movingBg": "#000"
+    },
+    "carousel": {
+      "tagActiveBgColor": "#000",
+      "tagTextColor": "white"
+    },
+    "bookmark": {
+      "color": "white",
+      "background": "black"
+    },
+    "details": {
+      "title": "#fff",
+      "content": "#fff"
+    },
+    "projectFeatures": {
+      "title": "white",
+      "textColor": "white",
+      "iconBg": "#000",
+      "iconColor": "#fff",
+      "iconBorder": "#ddd",
+      "background": "#121e2575"
+    },
+    "projectInfo": {
+      "background": "#121e2575",
+      "title": "#fff",
+      "content": "#f2f2f2",
+      "chevron": "#f2f2f2",
+      "separator": { "borderBottom": "1px solid #f2f2f2" }
+    },
+    "projectLocation": {
+      "titleColor": "#fff",
+      "background": "#000"
+    },
+    "propertyDetails": {
+      "titleColor": "#fff",
+      "background": "#E6ECEC",
+      "iconColor": "#a58561",
+      "iconColor2": "#a58561",
+      "textColor": "#28201b",
+      "textColor2": "#9d9d9d",
+      "price": "#fff",
+      "unit": "#f2dfce"
+    },
+    "message": {
+      "background": "#eff2f6",
+      "button": "#131313"
+    },
+    "reservation": {
+      "background": "#131313"
+    },
+    "options": {
+      "background": "#131313"
+    },
+    "footer": {
+      "background": "#000",
+      "invert": false,
+      "text": "white"
+    },
+
+    "smallLabel": {
+      "color": "#fff"
+    },
+
+    "starBg": {
+      "background": "#000"
+    },
+
+    "modal": {
+      "closeColor": "#fff",
+      "border": "1px solid #fff"
+    }
+  }
+}

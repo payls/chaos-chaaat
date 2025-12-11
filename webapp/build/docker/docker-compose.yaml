@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  webapp:
+    platform: linux/x86_64
+    image: node:14-alpine
+    container_name: webapp
+    volumes:
+      - ../..:${PWD}/../..
+    working_dir: ${PWD}/../..
+    entrypoint: /bin/sh -c "npm install && npm run start:dev"
+    ports:
+      - '3111:3111'
+    env_file:
+      - '../../.env'
