@@ -1,0 +1,56 @@
+.specificChannelsWrapper {
+  animation: showAni 0.1s ease-in;
+  &Selection {
+    position: relative;
+    background: var(--border-gradient);
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 16px;
+    padding-bottom: 40px;
+
+    &::after {
+      content: '';
+      position: absolute;
+      height: calc(100% - 2px);
+      width: calc(100% - 2px);
+      border-radius: 9px;
+      left: 1px;
+      top: 1px;
+      background: var(--sidebar-gradient-background);
+      background-color: #fff;
+      z-index: 0;
+    }
+
+    &Content {
+      z-index: 1;
+      position: relative;
+
+      > label {
+        color: var(--sidebar-helper-text);
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+
+      &List {
+        border-radius: 8px;
+        background: #fff;
+        padding: 16px 12px;
+        svg {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+@keyframes showAni {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

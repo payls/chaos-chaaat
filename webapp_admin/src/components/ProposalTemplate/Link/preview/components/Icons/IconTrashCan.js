@@ -1,0 +1,19 @@
+import React from 'react';
+
+export default function IconTrashCan(props) {
+  return (
+    <svg
+      {...props}
+      width="20"
+      height="20"
+      viewBox="0 0 20 20"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path d="M3.33325 4.58398H16.6666" stroke="#333333" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M7.5 2.08398H12.5" stroke="#333333" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M5 7.08398H15V16.6673C15 17.3577 14.4404 17.9173 13.75 17.9173H6.25C5.55962 17.9173 5 17.3577 5 16.6673V7.08398Z" stroke="#333333" stroke-width="1.6" stroke-linejoin="round"/>
+    </svg>
+  );
+}
+

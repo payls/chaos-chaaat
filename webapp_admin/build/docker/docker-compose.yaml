@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  webapp-admin:
+    platform: linux/x86_64
+    image: node:20.13.1
+    container_name: webapp-admin
+    volumes:
+      - ../..:${PWD}/../..
+    working_dir: ${PWD}/../..
+    entrypoint: /bin/sh -c "yarn install && yarn start:generic"
+    ports:
+      - '3112:3112'
+    env_file:
+      - '../../.env'
