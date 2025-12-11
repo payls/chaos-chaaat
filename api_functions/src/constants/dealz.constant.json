@@ -1,0 +1,107 @@
+{
+  "PORTAL": {
+    "WEBAPP": "webapp"
+  },
+  "USER": {
+    "ROLES": {
+      "ADMIN": "admin",
+      "SUPERADMIN": "superadmin"
+    },
+    "PROFILE_PICTURE_PLACEHOLDER": "https://cdn.yourpave.com/assets/profile_picture_placeholder.png",
+    "STATUS": {
+      "ACTIVE": "active",
+      "INACTIVE": "inactive",
+      "DELETED": "deleted"
+    },
+    "ACCESS_TOKEN": {
+      "STATUS": {
+        "ACTIVE": "active",
+        "INACTIVE": "inactive"
+      }
+    },
+    "SOCIAL_AUTH_TYPE": {
+      "GOOGLE": "google",
+      "FACEBOOK": "facebook"
+    },
+    "SUBSCRIPTION": {
+      "STATUS": {
+        "ACTIVE": "active",
+        "INACTIVE": "inactive"
+      }
+    },
+    "AUTH_TYPE": {
+      "EMAIL": "email",
+      "GOOGLE": "google",
+      "FACEBOOK": "facebook"
+    }
+  },
+  "DEALZ": {
+    "SLOT_TIME": {
+      "am": "MORNING (10AM-1PM)",
+      "pm": "EVENING (5PM-10PM)"
+    },
+    "OFFER_TYPE": {
+      "DOLLAR": "dollar",
+      "PERCENTAGE": "percentage"
+    },
+    "COUPON_CREATION_TYPE": {
+      "AUTOMATIC": "automatic",
+      "UPLOAD": "upload"
+    },
+    "COUPON_CODE_TYPE": {
+      "SINGLE": "single",
+      "UNIQUE": "unique"
+    },
+    "VALIDITY_TIME": {
+      "am": "MORNING (10AM-1PM)",
+      "pm": "EVENING (5PM-10PM)"
+    },
+    "STATUS": {
+      "draft": "Draft",
+      "pending": "Pending Review",
+      "approved": "Approved and Scheduled",
+      "revision": "Needs Revision",
+      "closed": "Closed"
+    }
+  },
+  "NOTIFICATION": {
+    "TARGET_TYPE" : {
+      "SUPERADMIN": "superadmin",
+      "AGENCY": "agency"
+    }
+  },
+  "AGENCY": {
+    "STATUS": {
+      "ACTIVE": "active",
+      "INACTIVE": "inactive",
+      "DELETED": "deleted"
+    },
+    "USER": {
+      "STATUS": {
+        "ACTIVE": "active",
+        "INACTIVE": "inactive",
+        "DELETED": "deleted"
+      }
+    },
+    "INVENTORY": {
+      "TYPE": {
+        "SUBSCRIPTION": "subscription",
+        "ADDON": "addon"
+      },
+      "ITEM_TYPE": {
+        "SLOT": "slot",
+        "BANNER": "banner",
+        "WEEKLY_DEALZ": "weekly_dealz",
+        "WEEKLY_BANNER_DEALZ": "weekly_banner_dealz"
+      }
+    }
+  },
+  "UPLOAD": {
+    "TYPE": {
+      "USER_PROFILE_IMAGE": "user_profile_image",
+      "AGENCY_LOGO_IMAGE": "agency_logo_image",
+      "MESSAGE_MEDIA": "message_media",
+      "MESSAGE_MEDIA_IMAGE_THUMBNAIL": "message_media_image_thumbnail"
+    }
+  }
+}
