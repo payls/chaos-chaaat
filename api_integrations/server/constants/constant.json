@@ -1,0 +1,586 @@
+{
+  "PORTAL": {
+    "WEBAPP": "webapp",
+    "WEBAPP_ADMIN": "webapp_admin"
+  },
+  "USER": {
+    "STATUS": {
+      "ACTIVE": "active",
+      "INACTIVE": "inactive",
+      "DELETED": "deleted"
+    },
+    "GENDER": {
+      "MALE": "male",
+      "FEMALE": "female"
+    },
+    "ROLE": {
+      "BUYER": "buyer",
+      "SELLER": "seller",
+      "TENANT": "tenant",
+      "LANDLORD": "landlord",
+      "TRADESPERSON": "tradesperson",
+      "LAWYER": "lawyer",
+      "BANKER": "banker",
+      "CLIENT_ADMIN": "client_admin",
+      "STAFF_AGENT": "staff_agent",
+      "STAFF_ADMIN": "staff_admin",
+      "AGENCY_ADMIN": "agency_admin",
+      "AGENCY_SALES": "agency_sales",
+      "AGENCY_MARKETING": "agency_marketing"
+    },
+    "ACCESS_TOKEN": {
+      "TYPE": {
+        "LOGIN": "login",
+        "SESSION": "session",
+        "EMAIL_VERIFICATION": "email_verification"
+      },
+      "STATUS": {
+        "ACTIVE": "active",
+        "UTILISED": "utilised",
+        "EXPIRED": "expired",
+        "REFRESHED": "refreshed",
+        "SIGNOUT": "signout"
+      }
+    },
+    "RESET_PASSWORD": {
+      "STATUS": {
+        "ACTIVE": "active",
+        "UTILISED": "utilised",
+        "EXPIRED": "expired"
+      }
+    },
+    "BUYER_TYPE": {
+      "INVESTMENT": "investment",
+      "LIFESTYLE": "lifestyle",
+      "COLLEGE_ACCOMODATION": "college_accomodation",
+      "INVESTOR_VISA": "investor_visa"
+    },
+    "AUTH_TYPE": {
+      "GOOGLE": "google",
+      "LINKEDIN": "linkedin",
+      "FACEBOOK": "facebook",
+      "EMAIL": "email"
+    },
+    "PROFILE_PICTURE_PLACEHOLDER": "https://cdn.yourpave.com/assets/profile_picture_placeholder.png"
+  },
+  "COMPANY": {
+    "INDUSTRY_TYPE": {
+      "REAL_ESTATE_AGENT": "Real Estate Agent",
+      "DEVELOPER": "Developer",
+      "PROJECT_MARKETER": "Project Marketer"
+    },
+    "SIZE": {
+      "INDIVIDUAL": "1",
+      "SMALL": "2 to 5",
+      "MEDIUM": "6 to 20",
+      "LARGE": "21+"
+    }
+  },
+  "DEVELOPER": {
+    "STATUS": {
+      "ACTIVE": "active",
+      "INACTIVE": "inactive",
+      "DELETED": "deleted"
+    },
+    "USER": {
+      "STATUS": {
+        "ACTIVE": "active",
+        "INACTIVE": "inactive",
+        "DELETED": "deleted"
+      }
+    }
+  },
+  "PROJECT": {
+    "TYPE": {
+      "HIGH_RISE_RESIDENTIAL": "High Rise Residential",
+      "SEMI_DETACHED": "Semi-Detached",
+      "HOUSE_AND_LAND": "House & Land"
+    },
+    "STATUS": {
+      "NOT_STARTED": "not_started",
+      "UNDER_CONSTRUCTION": "under_construction",
+      "COMPLETED": "completed"
+    },
+    "TEAM_BEHIND": {
+      "TYPE": {
+        "DEVELOPER": "developer",
+        "ARCHITECT": "architect",
+        "LANDSCAPER": "landscaper",
+        "BUILDER": "builder"
+      }
+    },
+    "DETAILS_TITLE_EMAIL": {
+      "key_stats": "Key Stats: ",
+      "project_highlights": "Project Highlights: ",
+      "why_invest": "Why Invest: ",
+      "shopping": "Shopping: ",
+      "transport": "Transport: ",
+      "education": "Education: "
+    },
+    "FEATURE": {
+      "pool": {
+        "label": "Swimming pool"
+      },
+      "parking": {
+        "label": "Parking"
+      },
+      "garden": {
+        "label": "Garden"
+      },
+      "gym": {
+        "label": "Gym"
+      },
+      "golf_simulator": {
+        "label": "Golf simulator"
+      },
+      "sauna": {
+        "label": "Sauna"
+      },
+      "library": {
+        "label": "Library"
+      },
+      "theater": {
+        "label": "Theater"
+      },
+      "utility_area": {
+        "label": "Utility area"
+      },
+      "jacuzzi": {
+        "label": "Jacuzzi"
+      },
+      "games_room": {
+        "label": "Games room"
+      },
+      "security": {
+        "label": "Security"
+      },
+      "concierge": {
+        "label": "Concierge"
+      },
+      "dog_wash": {
+        "label": "Dog wash"
+      },
+      "residence_club": {
+        "label": "Residence club"
+      },
+      "wine": {
+        "label": "Wine room"
+      },
+      "steam_room": {
+        "label": "Steam room"
+      },
+      "co_working_space": {
+        "label": "Co-working space"
+      },
+      "meeting_room": {
+        "label": "Meeting room"
+      }
+    }
+  },
+  "PROPERTY": {
+    "PROPERTY_STATUS": {
+      "AVAILABLE": "Available",
+      "HELD": "Held",
+      "RESERVED": "Reserved",
+      "CONTRACTS_CONDITIONAL": "Contracts - Conditional",
+      "CONTRACTS_UNCONDITIONAL": "Contracts - Unconditional",
+      "CONTRACTS_UNCONDITIONAL_AND_DEPOSIT_RECEIVED": "Contracts - Unconditional and Full Deposit Received",
+      "SETTLED": "Settled",
+      "HANDOVER_COMPLETED": "Handover Completed"
+    },
+    "STATUS": {
+      "OWNER_OCCUPIED": "owner_occupied",
+      "VACANT": "vacant",
+      "RENTED": "rented",
+      "RENTAL_PENDING": "rental_pending",
+      "PURCHASE_PENDING": "purchase_pending"
+    },
+    "TRANSACTION": {
+      "STATUS": {
+        "PENDING": "pending",
+        "COMPLETED": "completed",
+        "CANCELLED": "cancelled"
+      }
+    },
+    "MEDIA": {
+      "TYPE": {
+        "YOUTUBE": "youtube",
+        "IMAGE": "image"
+      },
+      "TAG": {
+        "IMAGE": "image",
+        "VIDEO": "video",
+        "FLOOR_PLAN": "floor_plan",
+        "BROCHURE": "brochure",
+        "PROJECT": "project"
+      }
+    },
+    "UNIT_TYPE": {
+      "STUDIO": "studio",
+      "1_BEDROOM": "1_bedroom",
+      "2_BEDROOMS": "2_bedrooms",
+      "3_BEDROOMS": "3_bedrooms",
+      "DUPLEX": "duplex",
+      "PENTHOUSE": "penthouse"
+    }
+  },
+  "TASK": {
+    "TYPE": {
+      "TASK": "task",
+      "JOB": "job"
+    },
+    "TYPE_SUB": {
+      "TASK_GENERAL": "task_general",
+      "JOB_PLUMBING": "job_plumbing",
+      "JOB_HOME_CLEANING": "job_home_cleaning",
+      "JOB_AIRCON_CLEANING": "job_aircon_cleaning",
+      "JOB_HANDYMAN": "job_handyman"
+    },
+    "STATUS": {
+      "PENDING_CLIENT": "pending_client",
+      "PENDING_STAFF": "pending_staff",
+      "COMPLETED": "completed"
+    },
+    "MESSAGE": {
+      "TYPE": {
+        "CLIENT_TO_STAFF": "client_to_staff",
+        "STAFF_TO_CLIENT": "staff_to_client"
+      }
+    }
+  },
+  "PERMISSION": {
+    "ACTION": {
+      "VIEW": "view",
+      "CREATE": "create",
+      "UPDATE": "update",
+      "DELETE": "delete"
+    }
+  },
+  "DIRECTION": {
+    "NORTH": "north",
+    "NORTH_EAST": "north_east",
+    "EAST": "east",
+    "SOUTH_EAST": "south_east",
+    "SOUTH": "south",
+    "SOUTH_WEST": "south_west",
+    "WEST": "west",
+    "NORTH_WEST": "north_west"
+  },
+  "UPLOAD": {
+    "TYPE": {
+      "USER_PROFILE_IMAGE": "user_profile_image",
+      "AGENCY_LOGO_IMAGE": "agency_logo_image",
+      "PROJECT_PROPERTY_MEDIA_IMAGE": "project_property_media_image",
+      "PROJECT_PROPERTY_MEDIA_VIDEO": "project_property_media_video",
+      "PROJECT_PROPERTY_MEDIA_YOUTUBE": "project_property_media_youtube",
+      "SHORTLISTED_PROPERTY_COMMENT_ATTACHMENT": "shortlisted_property_comment_attachment",
+      "PROJECT_PROPERTY_HEADER_INFO_COVER_PICTURE": "project_property_header_info_cover_picture",
+      "PROJECT_BROCHURE": "project_brochure",
+      "PROJECT_MEDIA_IMAGE": "project_media_image",
+      "PROJECT_MEDIA_IMAGE_THUMBNAIL": "project_media_image_thumbnail",
+      "PROJECT_MEDIA_VIDEO": "project_media_video",
+      "PROJECT_MEDIA_YOUTUBE": "project_media_youtube",
+      "PROJECT_MEDIA_VIMEO": "project_media_vimeo",
+      "PROJECT_MEDIA_WISTIA": "project_media_wistia",
+      "PROJECT_TEAM_BEHIND_LOGO": "project_team_behind_logo",
+      "REPORT": "report"
+    },
+    "TAG": {
+      "PROJECT_IMAGE": "project_image",
+      "PROJECT_INTRO_VIDEO": "project_intro_video",
+      "UNIT_CAROUSEL": "unit_carousel"
+    }
+  },
+  "OWNER": {
+    "TYPE": {
+      "CLIENT": "client",
+      "SERVICE_PROVIDER": "service_provider"
+    }
+  },
+  "SHORTLIST_PROPERTY": {
+    "COMMENT": {
+      "STATUS": {
+        "ACTIVE": "active",
+        "DELETED": "deleted"
+      },
+      "REACTION": {
+        "LIKE": "like",
+        "LOVE": "love",
+        "HAHA": "haha",
+        "WOW": "wow",
+        "SAD": "sad",
+        "ANGRY": "angry"
+      },
+      "VIEW": {
+        "BUYER_HAS_RESPONDED": "buyer_has_responded",
+        "BUYER_HAS_YET_TO_RESPOND": "buyer_has_yet_to_respond"
+      }
+    },
+    "SETTING": {
+      "media_setting_image": "image",
+      "media_setting_video": "video",
+      "media_setting_floor_plan": "floor_plan",
+      "media_setting_brocure": "brochure",
+      "hidden_media": "hidden_media",
+      "media_order": "media_order"
+    },
+    "SETTING_FORMAT": {
+      "image": "Image",
+      "video": "Video",
+      "floor_plan": "Floor Plan",
+      "brochure": "Brochure"
+    }
+  },
+  "SHORTLIST_PROJECT": {
+    "SETTING": {
+      "key_stats": "info_setting_key_stats",
+      "project_highlights": "info_setting_project_highlights",
+      "why_invest": "info_setting_why_invest",
+      "shopping": "info_setting_shopping",
+      "transport": "info_setting_transport",
+      "education": "info_setting_education",
+      "media_setting_image": "image",
+      "media_setting_video": "video",
+      "media_setting_floor_plan": "floor_plan",
+      "media_setting_brocure": "brochure",
+      "hidden_media": "hidden_media",
+      "media_order": "media_order"
+    }
+  },
+  "TRAY": {
+    "JWT_TOKEN": {
+      "ISSUER": "Pave",
+      "RECIPIENT": "Tray"
+    },
+    "USER_SOLUTION_INSTANCE_STATUS": {
+      "ACTIVE": "active",
+      "PENDING": "pending",
+      "INACTIVE": "inactive"
+    },
+    "USER_SOLUTION_IDS": {
+      "HUBSPOT": "1c7a7525-0ea8-469f-99e9-eedf39b55f61",
+      "GMAIL": "49a66fb2-08b8-40d9-ad03-d968fc4058ec",
+      "OUTLOOK": "f30be151-496f-43f0-92d0-844f1f095f81",
+      "SALESFORCE": "af6bee04-756d-4504-aaee-bdf94c09545e"
+    },
+    "USER_SOLUTION_SOURCE_TYPE": {
+      "HUBSPOT": "HUBSPOT",
+      "GMAIL": "GMAIL",
+      "OUTLOOK": "OUTLOOK",
+      "SALESFORCE": "SALESFORCE"
+    },
+    "WEBHOOKED_WORKFLOW_NAMES": {
+      "HUBSPOT": {
+        "FULL_SYNC": "Get All Contacts - Pave",
+        "CREATE_ENGAGEMENTS": "Create Engagements"
+      },
+      "GMAIL": {
+        "SEND_EMAIL": "(Gmail) Send Email - Pave"
+      },
+      "OUTLOOK": {
+        "SEND_EMAIL": "(MS365) Send Email - Pave"
+      },
+      "SALESFORCE": {
+        "FULL_SYNC": "Get All Contacts - Pave"
+      }
+    },
+    "EXTERNAL_AUTH_IDS": {
+      "HUBSPOT": "external_hubspot_authentication",
+      "GMAIL": "external_gmail_authentication",
+      "OUTLOOK": "external_microsoft_authentication",
+      "SALESFORCE": "external_salesforce_authentication"
+    },
+    "EVENT_SUBSCRIPTIONS": {
+      "HUBSPOT": {
+        "BCC_EMAIL_IN_SUFFIX": "@bcc.hubspot.com",
+        "CONTACT_PROPERTY_CHANGED": "contact.propertyChange",
+        "CONTACT_DELETED": "contact.deletion",
+        "CONTACT_DELETED_PRIVACY": ""
+      }
+    },
+    "AUTH_WEBHOOK": {
+      "URL": "https://2c96f0a3-66b5-434b-81aa-99233ac35e93.trayapp.io",
+      "URL_REFRESH": "https://75402d5f-73df-4c9b-b87a-0dcf7e90003a.trayapp.io"
+    }
+  },
+  "DIRECT_INTEGRATION": {
+    "SOURCE_TYPE": {
+      "HUBSPOT": "HUBSPOT",
+      "GMAIL": "GMAIL",
+      "OUTLOOK": "OUTLOOK",
+      "SALESFORCE": "SALESFORCE"
+    },
+    "INTEGRATION_STATUS": {
+      "ACTIVE": "active",
+      "PENDING": "pending",
+      "INACTIVE": "inactive"
+    }
+  },
+  "CONTACT": {
+    "STATUS": {
+      "ACTIVE": "active",
+      "DELETED": "deleted"
+    },
+    "ACTIVITY": {
+      "TYPE": {
+        "BUYER_LINK_OPENED": "buyer_link_opened",
+        "CAROUSEL_IMAGE_CLICKED": "carousel_image_clicked",
+        "CAROUSEL_THUMBNAIL_CLICKED": "carousel_thumbnail_clicked",
+        "CAROUSEL_LEFT_BUTTON_CLICKED": "carousel_left_button_clicked",
+        "CAROUSEL_RIGHT_BUTTON_CLICKED": "carousel_right_button_clicked",
+        "PROPERTY_RATED": "property_rated",
+        "COMMENT_POSTED": "comment_posted",
+        "COMMENT_ATTACHMENT_IMAGE_PREVIEWED": "comment_attachment_image_previewed",
+        "COMMENT_ATTACHMENT_PDF_PREVIEWED": "comment_attachment_pdf_previewed",
+        "COMMENT_ATTACHMENT_EXCEL_DOWNLOADED": "comment_attachment_excel_downloaded",
+        "COMMENT_ATTACHMENT_WORD_DOWNLOADED": "comment_attachment_word_downloaded",
+        "COMMENT_ATTACHMENT_POWERPOINT_DOWNLOADED": "comment_attachment_powerpoint_downloaded",
+        "PROPOSAL_SENT": "proposal_sent",
+        "UPDATED_PROPOSAL_SENT": "updated_proposal_sent",
+        "PROPERTY_BOOKMARKED": "property_bookmarked",
+        "PROPERTY_UNBOOKMARKED": "property_unbookmarked",
+        "TAG_CLICKED_ALL": "tag_clicked_all",
+        "TAG_CLICKED_IMAGE": "tag_clicked_image",
+        "TAG_CLICKED_VIDEO": "tag_clicked_video",
+        "TAG_CLICKED_FLOOR_PLAN": "tag_clicked_floor_plan",
+        "TAG_CLICKED_BROCHURE": "tag_clicked_brochure",
+        "TAG_CLICKED_PROJECT": "tag_clicked_project",
+        "PROJECT_CAROUSEL_IMAGE_CLICKED": "project_carousel_image_clicked",
+        "PROJECT_CAROUSEL_THUMBNAIL_CLICKED": "project_carousel_thumbnail_clicked",
+        "PROJECT_CAROUSEL_LEFT_BUTTON_CLICKED": "project_carousel_left_button_clicked",
+        "PROJECT_CAROUSEL_RIGHT_BUTTON_CLICKED": "projet_carousel_right_button_clicked",
+        "PROJECT_LEVEL_TAG_CLICKED_ALL": "project_level_tag_clicked_all",
+        "PROJECT_LEVEL_TAG_CLICKED_IMAGE": "project_level_tag_clicked_image",
+        "PROJECT_LEVEL_TAG_CLICKED_VIDEO": "project_level_tag_clicked_video",
+        "PROJECT_LEVEL_TAG_CLICKED_FLOOR_PLAN": "project_level_tag_clicked_floor_plan",
+        "PROJECT_LEVEL_TAG_CLICKED_BROCHURE": "project_level_tag_clicked_brochure",
+        "PROJECT_LEVEL_TAG_CLICKED_PROJECT": "project_level_tag_clicked_project",
+        "PROJECT_BOOKMARKED": "project_bookmarked",
+        "PROJECT_UNBOOKMARKED": "project_unbookmarked",
+        "PROJECT_ADDITIONAL_FIELD_CLICKED": "project_additional_field_clicked",
+        "MORE_PROPERTY_REQUESTED": "more_property_requested",
+        "AGENT_EMAIL_CLICKED": "agent_email_clicked",
+        "AGENT_PHONE_CLICKED": "agent_phone_clicked",
+        "AGENT_INSTAGRAM_CLICKED": "agent_instagram_clicked",
+        "AGENT_WEBSITE_CLICKED": "agent_website_clicked",
+        "AGENT_LINKEDIN_CLICKED": "agent_linkedin_clicked"
+      },
+      "MEDIA_TAGS": {
+        "CAROUSEL_IMAGE_CLICKED": "carousel_image_clicked",
+        "CAROUSEL_THUMBNAIL_CLICKED": "carousel_thumbnail_clicked",
+        "CAROUSEL_LEFT_BUTTON_CLICKED": "carousel_left_button_clicked",
+        "CAROUSEL_RIGHT_BUTTON_CLICKED": "carousel_right_button_clicked",
+        "TAG_CLICKED_ALL": "tag_clicked_all",
+        "TAG_CLICKED_IMAGE": "tag_clicked_image",
+        "TAG_CLICKED_VIDEO": "tag_clicked_video",
+        "TAG_CLICKED_FLOOR_PLAN": "tag_clicked_floor_plan",
+        "TAG_CLICKED_BROCHURE": "tag_clicked_brochure",
+        "TAG_CLICKED_PROJECT": "tag_clicked_project"
+      },
+      "PROJECT_MEDIA_TAGS": {
+        "PROJECT_CAROUSEL_IMAGE_CLICKED": "project_carousel_image_clicked",
+        "PROJECT_CAROUSEL_THUMBNAIL_CLICKED": "project_carousel_thumbnail_clicked",
+        "PROJECT_CAROUSEL_LEFT_BUTTON_CLICKED": "project_carousel_left_button_clicked",
+        "PROJECT_CAROUSEL_RIGHT_BUTTON_CLICKED": "projet_carousel_right_button_clicked",
+        "PROJECT_LEVEL_TAG_CLICKED_ALL": "project_level_tag_clicked_all",
+        "PROJECT_LEVEL_TAG_CLICKED_IMAGE": "project_level_tag_clicked_image",
+        "PROJECT_LEVEL_TAG_CLICKED_VIDEO": "project_level_tag_clicked_video",
+        "PROJECT_LEVEL_TAG_CLICKED_FLOOR_PLAN": "project_level_tag_clicked_floor_plan",
+        "PROJECT_LEVEL_TAG_CLICKED_BROCHURE": "project_level_tag_clicked_brochure",
+        "PROJECT_LEVEL_TAG_CLICKED_PROJECT": "project_level_tag_clicked_project"
+      },
+      "VIEWED_ON_DEVICE": {
+        "IPAD": "iPad",
+        "IPHONE": "iPhone",
+        "ANDROID": "Android",
+        "MACOS": "Macintosh",
+        "WINDOWS": "Windows"
+      },
+      "VIEWED_ON_VALUES": {
+        "MACOS": "Mac",
+        "WINDOWS": "Windows PC"
+      }
+    },
+    "PROPERTY_DEFINITIONS": {
+      "STATUS": {
+        "ACTIVE": "active",
+        "DELETED": "deleted"
+      }
+    }
+  },
+  "CONTACT_VIEW": {
+    "STATUS": {
+      "ACTIVE": "active",
+      "DELETED": "deleted"
+    }
+  },
+  "CURRENCY": {
+    "CODE": {
+      "USD": "usd"
+    }
+  },
+  "SIZE_FORMAT": {
+    "SQM": "sqm",
+    "SQFT": "sqft",
+    "TSUBO": "tsubo (坪)"
+  },
+  "LEAD_STATUS": {
+    "NO_PROPOSAL": "no_proposal",
+    "PROPOSAL_CREATED": "proposal_created",
+    "UPDATED_PROPOSAL_CREATED": "updated_proposal_created",
+    "PROPOSAL_SENT": "proposal_sent",
+    "UPDATED_PROPOSAL_SENT": "updated_proposal_sent",
+    "PROPOSAL_OPENED": "proposal_opened",
+    "UPDATED_PROPOSAL_OPENED": "updated_proposal_opened"
+  },
+  "DATE_FILTER": {
+    "TODAY": {
+      "VALUE": "today",
+      "DAYS_THRESHOLD": 1
+    },
+    "LAST_7_DAYS": {
+      "VALUE": "last_7_days",
+      "DAYS_THRESHOLD": 7
+    },
+    "LAST_30_DAYS": {
+      "VALUE": "last_30_days",
+      "DAYS_THRESHOLD": 30
+    }
+  },
+  "REPORT_GENERATION": {
+    "HEATMAP_COLOR": {
+      "COLOR1": "FFF33B",
+      "COLOR2": "FDC70C",
+      "COLOR3": "F3903F",
+      "COLOR4": "ED683C",
+      "COLOR5": "E93E3A"
+    },
+    "HIGHLY_RATED_THRESHOLD": 3
+  },
+  "CRON_JOB": {
+    "SCHEDULES": {
+      "3_MIN_AGENT_NOTIF": "0 */1 * * * *"
+    },
+    "TYPES": {
+      "3_MIN_AGENT_NOTIF": "3_MIN_AGENT_NOTIF",
+      "CONTACT_ASSIGNMENT_NOTIF": "CONTACT_ASSIGNMENT_NOTIF"
+    }
+  },
+  "AMQ": {
+    "CONSUMER_TYPES": {
+      "HS_PROCESS_CONTACTS": "HS_PROCESS_CONTACTS",
+      "HS_CREATE_CONTACT": "HS_CREATE_CONTACT",
+      "HS_UPDATE_CONTACT": "HS_UPDATE_CONTACT",
+      "HS_SEND_CONTACT_NOTE": "HS_SEND_CONTACT_NOTE",
+      "SF_CREATE_CONTACT": "SF_CREATE_CONTACT",
+      "SF_UPDATE_CONTACT": "SF_UPDATE_CONTACT",
+      "SF_CREATE_CONTACT_OPPORTUNITY": "SF_CREATE_CONTACT_OPPORTUNITY",
+      "SF_UPDATE_OPPORTUNITY": "SF_UPDATE_OPPORTUNITY",
+      "SF_CRON_PROCESSOR": "SF_CRON_PROCESSOR",
+      "SF_SEND_CONTACT_NOTE": "SF_SEND_CONTACT_NOTE",
+      "PAVE_BULK_CREATE_PROPOSAL": "PAVE_BULK_CREATE_PROPOSAL",
+      "PAVE_CREATE_PROPOSAL": "PAVE_CREATE_PROPOSAL",
+      "WA_PROCESS_WEBHOOK_PAYLOAD": "WA_PROCESS_WEBHOOK_PAYLOAD"
+    }
+  }
+}
