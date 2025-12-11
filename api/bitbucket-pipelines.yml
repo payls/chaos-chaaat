@@ -1,0 +1,145 @@
+# This is a sample build configuration for JavaScript.
+# Check our guides at https://confluence.atlassian.com/x/14UWN for more examples.
+# Only use spaces to indent your .yml configuration.
+# -----
+# You can specify a custom docker image from Docker Hub as your build environment.
+image: atlassian/default-image:2
+
+pipelines:
+  branches:
+    'chaaat-master':
+      - step:
+          name: "Feature CI"
+          image: node:20.13.1
+          caches:
+            - node
+          services:
+            - mysql
+          script:
+            - echo $DEV_ENV | base64 --decode --ignore-garbage > .env
+            - npm install
+            - npm i -g forever eslint@7.32.0 -f
+            - forever start server.js
+            - npm run ups
+            - npm run lint
+            - npm run test
+      - step:
+          name: "Build Production API"
+          script:
+            - zip -r application.zip . --exclude=*.git* --exclude=node_module*
+          artifacts:
+            - application.zip
+      - step:
+          name: "Deploy to Production"
+          deployment: production
+          script:
+            - pipe: atlassian/aws-elasticbeanstalk-deploy:0.5.0
+              variables:
+                AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID_PRODUCTION
+                AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY_PRODUCTION
+                AWS_DEFAULT_REGION: "ap-southeast-1"
+                APPLICATION_NAME: "pave-api"
+                ENVIRONMENT_NAME: 'chaaat-api-node-20'
+                ZIP_FILE: "application.zip"
+                VERSION_LABEL: 'deploy-$BITBUCKET_BUILD_NUMBER-main'
+                WAIT: 'true'
+    'staging':
+      - step:
+          name: "Feature CI"
+          image: node:20.13.1
+          caches:
+            - node
+          services:
+            - mysql
+          script:
+            - echo $DEV_ENV | base64 --decode --ignore-garbage > .env
+            - npm install
+            - npm i -g forever eslint@7.32.0 -f
+            - forever start server.js
+            - npm run ups
+            - npm run lint
+            - npm run test
+      - step:
+          name: "Build Staging API"
+          script:
+            - zip -r application.zip . --exclude=*.git* --exclude=node_module*
+          artifacts:
+            - application.zip
+      - step:
+          name: "Deploy to Staging"
+          deployment: staging
+          script:
+            - pipe: atlassian/aws-elasticbeanstalk-deploy:0.5.0
+              variables:
+                AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID_STAGING
+                AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY_STAGING
+                AWS_DEFAULT_REGION: "ap-southeast-1"
+                APPLICATION_NAME: "pave-api-staging"
+                ENVIRONMENT_NAME: 'chaaat-api-staging-node-20'
+                ZIP_FILE: "application.zip"
+                VERSION_LABEL: 'deploy-$BITBUCKET_BUILD_NUMBER-main'
+                WAIT: 'true'
+    # temporary deployment
+    'update/CT-1065':
+      - step:
+          name: "Feature CI"
+          image: node:20.13.1
+          caches:
+            - node
+          services:
+            - mysql
+          script:
+            - echo $DEV_ENV | base64 --decode --ignore-garbage > .env
+            - npm install
+            - npm i -g forever eslint@7.32.0 -f
+            - forever start server.js
+            - npm run ups
+            - npm run lint
+            - npm run test
+      - step:
+          name: "Build Staging API"
+          script:
+            - zip -r application.zip . --exclude=*.git* --exclude=node_module*
+          artifacts:
+            - application.zip
+      - step:
+          name: "Deploy to Staging"
+          deployment: staging
+          script:
+            - pipe: atlassian/aws-elasticbeanstalk-deploy:0.5.0
+              variables:
+                AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID_STAGING
+                AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY_STAGING
+                AWS_DEFAULT_REGION: "ap-southeast-1"
+                APPLICATION_NAME: "pave-api-staging"
+                ENVIRONMENT_NAME: 'chaaat-api-staging-node-20'
+                ZIP_FILE: "application.zip"
+                VERSION_LABEL: 'deploy-CT-1065-$BITBUCKET_BUILD_NUMBER-main'
+                WAIT: 'true'
+    '{feature/*,bugfix/*,hotfix/*,release/*}':
+      - step:
+          name: "Feature CI"
+          image: node:14.19.1
+          caches:
+            - node
+          services:
+            - mysql
+          script:
+            - echo $DEV_ENV | base64 --decode --ignore-garbage > .env
+            - npm install
+            - npm i -g forever eslint@7.32.0
+            - forever start server.js
+            - npm run ups
+            - npm run lint
+            - npm run test
+
+definitions:
+  services:
+    mysql:
+      image: mysql:5.7
+      # memory: 1024  # default value
+      variables:
+        MYSQL_DATABASE: pave_development
+        MYSQL_USER: pavewebmaster
+        MYSQL_PASSWORD: ZM3z8LvwwQW6pmEePrz7NRUv8
+        MYSQL_ROOT_PASSWORD: pavewebmaster
