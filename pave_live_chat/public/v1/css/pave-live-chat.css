@@ -1,0 +1,126 @@
+#pave-chat {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  font-family: 'Poppins', sans-serif;
+}
+#pave-chat .pave-chat-init-btn {
+  cursor: pointer;
+  transition: transform 0.2s;
+  /* background: #4877ff; */
+  /* background: linear-gradient(
+    73deg,
+    rgba(41, 242, 188, 1) 0%,
+    rgba(72, 119, 255, 1) 50%,
+    rgba(249, 69, 179, 1) 100%
+  ); */
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  display: grid;
+  place-items: center;
+}
+
+#pave-chat .pave-chat-init-btn.no-bg {
+  background-color: transparent;
+}
+
+#pave-chat .pave-chat-init-btn svg {
+  margin-top: 8px;
+  vertical-align: initial;
+}
+
+#pave-chat .pave-chat-init-btn:hover {
+  transform: scale(1.2);
+}
+#pave-chat .pave-chat-init-btn:active {
+  transform: scale(1);
+}
+#pave-chat .pave-chat-body {
+  display: none;
+  /* background-color: #2a5245; */
+  z-index: 2147483000;
+  position: fixed;
+  bottom: 84px;
+  right: 20px;
+  height: min(655px, 100% - 104px);
+  min-height: 80px;
+  width: 400px;
+  max-height: 655px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 5px 40px;
+  border-radius: 16px;
+  overflow: hidden;
+  opacity: 1;
+  transform-origin: right bottom;
+  transition: width 200ms ease 0s, height 200ms ease 0s,
+    max-height 200ms ease 0s, transform 300ms cubic-bezier(0, 1.2, 1, 1) 0s,
+    opacity 83ms ease-out 0s;
+  pointer-events: all;
+}
+
+#pave-chat input[type='text']::placeholder {
+  color: #9ca3af;
+  opacity: 1; /* Firefox */
+}
+
+#pave-chat input[type='text']:-ms-input-placeholder {
+  color: #9ca3af;
+}
+
+#pave-chat input[type='text']::-ms-input-placeholder {
+  color: #9ca3af;
+}
+
+#pave-chat .pave-chat-body.wa {
+  height: min(195px, 100% - 104px) !important;
+}
+
+#pave-chat .pave-chat-body.opened {
+  display: grid;
+  animation: pave 0.1s ease-in;
+  place-items: center;
+}
+#pave-chat .pave-chat-body .pave-chat-btn {
+  background-color: rgb(254, 89, 89);
+  color: rgb(255, 255, 255);
+  border-color: rgb(254, 89, 89);
+  display: inline-block;
+  padding: 1.13rem 2.15rem;
+  transition: opacity 0.3s, background-color 0.3s, border-color 0.3s, color 0.3s,
+    transform 0.2s;
+  font-size: 1rem;
+  font-weight: 500;
+  font-style: normal;
+  text-decoration: none;
+  border-radius: 8px;
+  border: 1px solid rgb(254, 89, 89);
+  position: relative;
+  white-space: nowrap;
+  font-family: Poppins, sans-serif;
+  cursor: pointer;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@keyframes pave {
+  0% {
+    transform: scale(0.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@media (max-width: 414px) {
+  #pave-chat .pave-chat-body {
+    width: 95%;
+    right: 9px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

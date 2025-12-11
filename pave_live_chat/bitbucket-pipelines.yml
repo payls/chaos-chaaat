@@ -1,0 +1,100 @@
+# This is a sample build configuration for JavaScript.
+# Check our guides at https://confluence.atlassian.com/x/14UWN for more examples.
+# Only use spaces to indent your .yml configuration.
+# -----
+# You can specify a custom docker image from Docker Hub as your build environment.
+image: atlassian/default-image:2
+
+pipelines:
+  branches:
+    'staging':
+      - step:
+          name: 'Build Staging Pave Live Chat'
+          image: node:18.16.0
+          caches:
+            - node
+            - npm
+          script:
+            - apt-get update
+            - apt-get install zip -y
+            - npm ci
+            - NODE_ENV=staging npx next build
+            - zip -r application.zip . --exclude=*.git*
+          artifacts:
+            - application.zip
+      - step:
+          name: 'Deploy to Pave Live Chat Staging'
+          deployment: staging
+          script:
+            - pipe: atlassian/aws-elasticbeanstalk-deploy:0.5.0
+              variables:
+                AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID_STAGING
+                AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY_STAGING
+                AWS_DEFAULT_REGION: 'ap-southeast-1'
+                APPLICATION_NAME: 'pave-live-chat-staging'
+                ENVIRONMENT_NAME: 'Pave-live-chat-staging-env'
+                ZIP_FILE: 'application.zip'
+                VERSION_LABEL: 'deploy-$BITBUCKET_BUILD_NUMBER-main'
+                WAIT: 'true'
+    'qa':
+      - step:
+          name: 'Build QA Pave Live Chat'
+          image: node:18.16.0
+          caches:
+            - node
+            - npm
+          script:
+            - apt-get update
+            - apt-get install zip -y
+            - npm ci
+            - NODE_ENV=qa npx next build
+            - zip -r application.zip . --exclude=*.git*
+          artifacts:
+            - application.zip
+      - step:
+          name: 'Deploy to Pave Live Chat QA'
+          deployment: qa
+          script:
+            - pipe: atlassian/aws-elasticbeanstalk-deploy:0.5.0
+              variables:
+                AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID_QA
+                AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY_QA
+                AWS_DEFAULT_REGION: 'ap-southeast-1'
+                APPLICATION_NAME: 'pave-live-chat-qa'
+                ENVIRONMENT_NAME: 'Pave-live-chat-qa-env'
+                ZIP_FILE: 'application.zip'
+                VERSION_LABEL: 'deploy-$BITBUCKET_BUILD_NUMBER-main'
+                WAIT: 'true'
+    'master':
+      - step:
+          name: 'Build Production Pave Live Chat'
+          image: node:18.16.0
+          caches:
+            - node
+            - npm
+          script:
+            - apt-get update
+            - apt-get install zip -y
+            - npm ci
+            - npx next build
+            - zip -r application.zip . --exclude=*.git*
+          artifacts:
+            - application.zip
+      - step:
+          name: 'Deploy to Pave Live Chat Production'
+          deployment: production
+          script:
+            - pipe: atlassian/aws-elasticbeanstalk-deploy:0.5.0
+              variables:
+                AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID_PRODUCTION
+                AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY_PRODUCTION
+                AWS_DEFAULT_REGION: 'ap-southeast-1'
+                APPLICATION_NAME: 'pave-live-chat'
+                ENVIRONMENT_NAME: 'PaveLiveChat-env-node-14'
+                ZIP_FILE: 'application.zip'
+                VERSION_LABEL: 'deploy-$BITBUCKET_BUILD_NUMBER-main'
+                WAIT: 'true'
+definitions:
+  caches:
+    npm: ~/.npm
+    cypress: ~/.cache

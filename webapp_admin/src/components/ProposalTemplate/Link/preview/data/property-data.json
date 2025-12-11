@@ -1,0 +1,2889 @@
+[
+  {
+    "project_id": "95",
+    "country_fk": "19",
+    "slug": "hyde-heritage-thonglor",
+    "name": "Hyde Heritage Thonglor",
+    "property_header_info": {
+      "name": "Discover Hyde Heritage Thonglor",
+      "short_description": "Undeniable perfection and distinction in the heart of Bangkok",
+      "descriptions": [
+        "Art deco meets modern luxury",
+        "Stones throw from Bangkok's best retail and restaurants",
+        "An exceptional 28 different facility offerings"
+      ],
+      "cover_picture_url": "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-heritage-thonglor/HYDE+Heritage+cover.jpg"
+    },
+    "location": {
+      "address": "1199 Sukhumvit Rd, Khlong Tan Nuea, Watthana, Bangkok",
+      "lat": 13.72243291836422,
+      "lng": 100.58190843022575,
+      "google_map_url": "https://www.google.com.sg/maps/place/Thao+Dien,+District+2,+Ho+Chi+Minh+City,+Vietnam/@10.8092575,106.7179086,14z"
+    },
+    "location_map": [
+      {
+        "name": "Supermarkets",
+        "slug": "supermarkets",
+        "locations": [
+          {
+            "name": "location 1",
+            "lat": 41.3954,
+            "lng": 2.162
+          }
+        ]
+      },
+      {
+        "name": "Cafes",
+        "slug": "cafes",
+        "locations": [
+          {
+            "name": "location 1",
+            "lat": 41.3954,
+            "lng": 2.162
+          }
+        ]
+      },
+      {
+        "name": "Bars",
+        "slug": "bars",
+        "locations": [
+          {
+            "name": "location 1",
+            "lat": 41.3954,
+            "lng": 2.162
+          }
+        ]
+      },
+      {
+        "name": "Schools",
+        "slug": "schools",
+        "locations": [
+          {
+            "name": "location 1",
+            "lat": 41.3954,
+            "lng": 2.162
+          }
+        ]
+      },
+      {
+        "name": "Kindergardens",
+        "slug": "kindergardens",
+        "locations": [
+          {
+            "name": "location 1",
+            "lat": 41.3954,
+            "lng": 2.162
+          }
+        ]
+      }
+    ],
+    "features": [
+      {
+        "name": "Sky pool and kids pool",
+        "type": "pool"
+      },
+      {
+        "name": "Private parking spaces",
+        "type": "parking"
+      },
+      {
+        "name": "Sky garden",
+        "type": "garden"
+      },
+      {
+        "name": "Grand gym and yoga room",
+        "type": "gym"
+      },
+      {
+        "name": "Experiential golf simulator",
+        "type": "golf-simulator"
+      },
+      {
+        "name": "Sauna and spa",
+        "type": "sauna"
+      },
+      {
+        "name": "Co-working space and library",
+        "type": "library"
+      },
+      {
+        "name": "Theater",
+        "type": "theater"
+      },
+      {
+        "name": "Laundry and storage room ",
+        "type": "utility-area"
+      }
+    ],
+    "location_nearby": [
+      {
+        "type": "nearby",
+        "locations": [
+          {
+            "name": "Residents will find many retail outlets, dining options, entertainment venues, international schools, as well as modern healthcare services only a few minutes away"
+          }
+        ]
+      },
+      {
+        "type": "school",
+        "locations": [
+          {
+            "name": "170 meters from Bangkok PREP International school"
+          }
+        ]
+      },
+      {
+        "type": "nearby",
+        "locations": [
+          {
+            "name": "Only 250 meters from BTS Thonglor and just 150 meters from Skywalk connected to T-One Building."
+          }
+        ]
+      }
+    ],
+    "units_available_for_purchase": [
+      {
+        "property_id": "138",
+        "unit_type": "1 bedroom",
+        "floor": 16,
+        "sqm": 43.2,
+        "bed": 1,
+        "bath": 1,
+        "start_price": 399092.93,
+        "currency": "USD",
+        "weekly_rent": 360.7186,
+        "rental_yield": 4.7,
+        "parking_lots": 0,
+        "direction_facing": "west",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-heritage-thonglor/units/unit_16/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-heritage-thonglor/units/unit_16/image_2.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-heritage-thonglor/units/unit_16/image_3.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-heritage-thonglor/units/unit_16/image_4.png"
+        ]
+      },
+      {
+        "property_id": "312",
+        "unit_type": "1 bedroom",
+        "floor": 18,
+        "sqm": 43.2,
+        "bed": 1,
+        "bath": 1,
+        "start_price": 402324.45,
+        "currency": "USD",
+        "weekly_rent": 363.6394,
+        "rental_yield": 4.7,
+        "parking_lots": 0,
+        "direction_facing": "west",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-heritage-thonglor/units/unit_18/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-heritage-thonglor/units/unit_18/image_2.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-heritage-thonglor/units/unit_18/image_3.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-heritage-thonglor/units/unit_18/image_4.png"
+        ]
+      },
+      {
+        "property_id": "317",
+        "unit_type": "1 bedroom",
+        "floor": 20,
+        "sqm": 58.7,
+        "bed": 1,
+        "bath": 1,
+        "start_price": 596449.99,
+        "currency": "USD",
+        "weekly_rent": 539.0990,
+        "rental_yield": 4.7,
+        "parking_lots": 0,
+        "direction_facing": "south",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-heritage-thonglor/units/unit_20/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-heritage-thonglor/units/unit_20/image_2.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-heritage-thonglor/units/unit_20/image_3.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-heritage-thonglor/units/unit_20/image_4.png"
+        ]
+      },
+      {
+        "property_id": "319",
+        "unit_type": "1 bedroom",
+        "floor": 35,
+        "sqm": 43.2,
+        "bed": 1,
+        "bath": 1,
+        "start_price": 441102.68,
+        "currency": "USD",
+        "weekly_rent": 398.6890,
+        "rental_yield": 4.7,
+        "parking_lots": 0,
+        "direction_facing": "west",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-heritage-thonglor/units/unit_35/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-heritage-thonglor/units/unit_35/image_2.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-heritage-thonglor/units/unit_35/image_3.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-heritage-thonglor/units/unit_35/image_4.png"
+        ]
+      },
+      {
+        "property_id": "320",
+        "unit_type": "2 bedrooms",
+        "floor": 9,
+        "sqm": 75.6,
+        "bed": 2,
+        "bath": 2,
+        "start_price": 734505.85,
+        "currency": "USD",
+        "weekly_rent": 593.2547,
+        "rental_yield": 4.2,
+        "parking_lots": 0,
+        "direction_facing": "east",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-heritage-thonglor/units/unit_9/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-heritage-thonglor/units/unit_9/image_2.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-heritage-thonglor/units/unit_9/image_3.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-heritage-thonglor/units/unit_9/image_4.png"
+        ]
+      },
+      {
+        "property_id": "322",
+        "unit_type": "2 bedrooms",
+        "floor": 9,
+        "sqm": 77.3,
+        "bed": 2,
+        "bath": 2,
+        "start_price": 693879.48,
+        "currency": "USD",
+        "weekly_rent": 560.4411,
+        "rental_yield": 4.2,
+        "parking_lots": 0,
+        "direction_facing": "west",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-heritage-thonglor/units/unit_9_1/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-heritage-thonglor/units/unit_9_1/image_2.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-heritage-thonglor/units/unit_9_1/image_3.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-heritage-thonglor/units/unit_9_1/image_4.png"
+        ]
+      },
+      {
+        "property_id": "324",
+        "unit_type": "2 bedrooms",
+        "floor": 15,
+        "sqm": 75.6,
+        "bed": 2,
+        "bath": 2,
+        "start_price": 752868.50,
+        "currency": "USD",
+        "weekly_rent": 608.0861,
+        "rental_yield": 4.2,
+        "parking_lots": 0,
+        "direction_facing": "east",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-heritage-thonglor/units/unit_15/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-heritage-thonglor/units/unit_15/image_2.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-heritage-thonglor/units/unit_15/image_3.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-heritage-thonglor/units/unit_15/image_4.png"
+        ]
+      },
+      {
+        "property_id": "326",
+        "unit_type": "2 bedrooms",
+        "floor": 23,
+        "sqm": 82.8,
+        "bed": 2,
+        "bath": 2,
+        "start_price": 851385.55,
+        "currency": "USD",
+        "weekly_rent": 687.6576,
+        "rental_yield": 4.2,
+        "parking_lots": 0,
+        "direction_facing": "north",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-heritage-thonglor/units/unit_23/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-heritage-thonglor/units/unit_23/image_2.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-heritage-thonglor/units/unit_23/image_3.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-heritage-thonglor/units/unit_23/image_4.png"
+        ]
+      },
+      {
+        "property_id": "328",
+        "unit_type": "2 bedrooms",
+        "floor": 32,
+        "sqm": 82.8,
+        "bed": 2,
+        "bath": 2,
+        "start_price": 894960.40,
+        "currency": "USD",
+        "weekly_rent": 722.8526,
+        "rental_yield": 4.2,
+        "parking_lots": 0,
+        "direction_facing": "north",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-heritage-thonglor/units/unit_32/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-heritage-thonglor/units/unit_32/image_2.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-heritage-thonglor/units/unit_32/image_3.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-heritage-thonglor/units/unit_32/image_4.png"
+        ]
+      },
+      {
+        "property_id": "330",
+        "unit_type": "3 bedrooms",
+        "floor": 34,
+        "sqm": 138.4,
+        "bed": 3,
+        "bath": 3,
+        "start_price": 1518334.98,
+        "currency": "USD",
+        "weekly_rent": 1080.3537,
+        "rental_yield": 3.7,
+        "parking_lots": 0,
+        "direction_facing": "south",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-heritage-thonglor/units/unit_34/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-heritage-thonglor/units/unit_34/image_2.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-heritage-thonglor/units/unit_34/image_3.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-heritage-thonglor/units/unit_34/image_4.png"
+        ]
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/embed/U1tCoMMpGnM",
+        "type": "youtube",
+        "header_text": "Video intro"
+      }
+    ],
+    "team_behind": {
+      "developer": {
+        "name": "GRAND STAR COMPANY LIMITED (A THAI-JAPANESE PARTNERSHIP BY 3 LEADING DEVELOPERS)",
+        "logos": [
+          "/assets/images/team_behind_logo/grand-star-company.png",
+          "/assets/images/team_behind_logo/grande-asset-hotels.jpeg"
+        ],
+        "description": "Property Perfect Plc. (PF) and Grande Asset Hotels and Property Plc. (GRAND) in collaboration with \"Sumitomo Forestry Co.,Ltd.\" to develop super-luxury condominiums in Thailand. Beginning with HYDE Heritage Thonglor, with high-end condominium, under influence and expertise of \"Sumitomo Forestry\" with their materials and technology used for construction and furniture. Thus, consumers can be assured about the quality, up to Japanese standards with their product quality control acknowledged worldwide."
+      },
+      "architect": {
+        "name": "I'LL DESIGN STUDIO",
+        "logos": [
+          "/assets/images/team_behind_logo/ill-design-studio.png"
+        ],
+        "description": "I'll Design Studio is the architectural and interior design firm established since June 2002 by Mr.Prudti Yothongyot. Our company has grown steadily over the past 10 years. We have a diversified portfolio both of domestic and abroad. With the all experience make we are able to crystallize the creative idea and professional in architecture, interior, landscape including 3D model and animation. These are the reasons we can serve clients completely and efficiently.",
+        "website": "http://www.iwilldesign.co.th/"
+      },
+      "builder": null,
+      "interior_designer": {
+        "name": "THAT’S ITH",
+        "logos": [
+          "/assets/images/team_behind_logo/thatsith.png"
+        ],
+        "description": "That’s Ith Interior was created by Ith Palach Painupong, an award winning designer. He has received design recognitions from London, New York, Hong Kong and Vietnam. After collecting 12 years of intensive working experiences both in Bangkok and Hong Kong on diverse types of projects in hospitality, residential, retail as well as workplace design, Ith established his own design studio in 2013 to pursuit his distinctive passion and to expand his innovations to all aspects of interior design.",
+        "website": "https://www.thatisith.com/"
+      },
+      "landscaper": {
+        "name": "SHMA",
+        "logos": [
+          "/assets/images/team_behind_logo/shma.jpg"
+        ],
+        "description": "We are a creative landscape architecture platform with multidisciplinary professions collaborating to deliver a meaningful and thoughtful design that deals with increasing environmental challenges and to create better earth. We are a community of landscape architects, technicians, horticulturists, strategic designers, media makers, researchers, and more.",
+        "website": "https://shmadesigns.com/"
+      }
+    },
+    "completion_status": 0.4,
+    "availability": 0.9,
+    "pricing_description": "Starting from USD 400,000",
+    "bedrooms_description": "1, 2 and 3 bedroom configuration",
+    "residences_description": "311 units",
+    "estimated_completion": "Half year 2022",
+    "units_available": "10 units available",
+    "description": "Created to perfectly meet the discerning demands of dynamic modern lifestyles, HYDE Heritage Thonglor rises gloriously over Sukhumvit main road to elevate urban living into a fine art. Here, contemporary luxury is heightened through an eye-catching expression of exceptional design and craftsmanship. From lavish living spaces to exclusive five-star facilities and services, HYDE Heritage Thonglor is the ideal home from which to build an incredible family legacy.",
+    "brochure_url": "https://ixk3y98pggm.typeform.com/to/TYe1OtXn",
+    "images": [
+      {
+        "src": "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-heritage-thonglor/hyde-heritage-thonglor-slider-1.jpg",
+        "alt": ""
+      },
+      {
+        "src": "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-heritage-thonglor/hyde-heritage-thonglor-slider-2.jpg",
+        "alt": ""
+      },
+      {
+        "src": "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-heritage-thonglor/hyde-heritage-thonglor-slider-3.jpg",
+        "alt": ""
+      },
+      {
+        "src": "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-heritage-thonglor/hyde-heritage-thonglor-slider-4.jpg",
+        "alt": ""
+      },
+      {
+        "src": "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-heritage-thonglor/hyde-heritage-thonglor-slider-5.jpg",
+        "alt": ""
+      }
+    ],
+    "breadcrumbs": [
+      {
+        "text": "Thailand",
+        "url": "/thailand"
+      },
+      {
+        "text": "Hyde Heritage Thonglor",
+        "url": "/project/hyde-heritage-thonglor"
+      }
+    ]
+  },
+  {
+    "project_id": "140",
+    "country_fk": "19",
+    "slug": "hyde-sukhumvit-11",
+    "name": "Hyde Sukhumvit 11",
+    "property_header_info": {
+      "name": "Discover Hyde Sukhumvit 11",
+      "short_description": "Experience the glamorous residence that blends splendid structure with unrivalled style",
+      "descriptions": [
+        "Unbeatable location for expats, there is no better place to be",
+        "First class facilities",
+        "Design and High-Rise Development award winner"
+      ],
+      "cover_picture_url": "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-sukhumvit-11/hyde-sukhumvit-11-cover.png"
+    },
+    "location": {
+      "address": "No27, Soi Sukhumvit 11, Khlong Toei Nuea, Watthana, Bangkok",
+      "lat": 13.745032802300246,
+      "lng": 100.55627189381522,
+      "google_map_url": "https://www.google.com.sg/maps/place/Thao+Dien,+District+2,+Ho+Chi+Minh+City,+Vietnam/@10.8092575,106.7179086,14z"
+    },
+    "location_map": [
+      {
+        "name": "Supermarkets",
+        "slug": "supermarkets",
+        "locations": [
+          {
+            "name": "location 1",
+            "lat": 41.3954,
+            "lng": 2.162
+          }
+        ]
+      },
+      {
+        "name": "Cafes",
+        "slug": "cafes",
+        "locations": [
+          {
+            "name": "location 1",
+            "lat": 41.3954,
+            "lng": 2.162
+          }
+        ]
+      },
+      {
+        "name": "Bars",
+        "slug": "bars",
+        "locations": [
+          {
+            "name": "location 1",
+            "lat": 41.3954,
+            "lng": 2.162
+          }
+        ]
+      },
+      {
+        "name": "Schools",
+        "slug": "schools",
+        "locations": [
+          {
+            "name": "location 1",
+            "lat": 41.3954,
+            "lng": 2.162
+          }
+        ]
+      },
+      {
+        "name": "Kindergardens",
+        "slug": "kindergardens",
+        "locations": [
+          {
+            "name": "location 1",
+            "lat": 41.3954,
+            "lng": 2.162
+          }
+        ]
+      }
+    ],
+    "features": [
+      {
+        "name": "Swimming pool",
+        "type": "pool"
+      },
+      {
+        "name": "Jacuzzi",
+        "type": "jacuzzi"
+      },
+      {
+        "name": "Garden",
+        "type": "garden"
+      },
+      {
+        "name": "Fitness room",
+        "type": "gym"
+      },
+      {
+        "name": "Experiential golf simulator",
+        "type": "golf-simulator"
+      },
+      {
+        "name": "Steam room",
+        "type": "steam-room"
+      },
+      {
+        "name": "Sauna",
+        "type": "sauna"
+      },
+      {
+        "name": "Meeting room & library",
+        "type": "library"
+      },
+      {
+        "name": "Theater room",
+        "type": "theater"
+      },
+      {
+        "name": "Game room",
+        "type": "game-room"
+      }
+    ],
+    "location_nearby": [
+      {
+        "type": "transport",
+        "locations": [
+          {
+            "name": "The nearest BTS station Nana, is a short walk away of approximatey 500 meters to the Sukhumvit MRT station."
+          }
+        ]
+      },
+      {
+        "type": "school",
+        "locations": [
+          {
+            "name": "NIST International School"
+          }
+        ]
+      },
+      {
+        "type": "nearby",
+        "locations": [
+          {
+            "name": "Retail outlets, dining and entertainment venues, educational institutes, hotels, hospitals, parks only a few minutes away."
+          }
+        ]
+      }
+    ],
+    "units_available_for_purchase": [
+      {
+        "property_id": "333",
+        "unit_type": "Studio",
+        "floor": 16,
+        "sqm": 26.9,
+        "bed": 1,
+        "bath": 1,
+        "start_price": 207240.00,
+        "currency": "USD",
+        "weekly_rent": 195.2838,
+        "rental_yield": 4.9,
+        "parking_lots": 0,
+        "direction_facing": "north",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-sukhumvit-11/units/unit_1610_27-201_16/group_44.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-sukhumvit-11/units/unit_1610_27-201_16/group_100.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-sukhumvit-11/units/unit_1610_27-201_16/group_101.png"
+        ]
+      },
+      {
+        "property_id": "338",
+        "unit_type": "Studio",
+        "floor": 17,
+        "sqm": 27.6,
+        "bed": 1,
+        "bath": 1,
+        "start_price": 213576.00,
+        "currency": "USD",
+        "weekly_rent": 201.2543,
+        "rental_yield": 4.9,
+        "parking_lots": 0,
+        "direction_facing": "north",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-sukhumvit-11/units/unit_1710_27-214_17/group_44.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-sukhumvit-11/units/unit_1710_27-214_17/group_100.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-sukhumvit-11/units/unit_1710_27-214_17/group_101.png"
+        ]
+      },
+      {
+        "property_id": "339",
+        "unit_type": "1 bedroom",
+        "floor": 2,
+        "sqm": 34.1,
+        "bed": 1,
+        "bath": 1,
+        "start_price": 222255.00,
+        "currency": "USD",
+        "weekly_rent": 209.4326,
+        "rental_yield": 4.9,
+        "parking_lots": 0,
+        "direction_facing": "south",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-sukhumvit-11/units/unit_202_27-2_2/v1_image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-sukhumvit-11/units/unit_202_27-2_2/v1_image_2.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-sukhumvit-11/units/unit_202_27-2_2/v1_image_3.png"
+        ]
+      },
+      {
+        "property_id": "341",
+        "unit_type": "1 bedroom",
+        "floor": 5,
+        "sqm": 34,
+        "bed": 1,
+        "bath": 1,
+        "start_price": 233673.00,
+        "currency": "USD",
+        "weekly_rent": 220.1919,
+        "rental_yield": 4.9,
+        "parking_lots": 0,
+        "direction_facing": "west",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-sukhumvit-11/units/unit_506_27-48_5/v1_image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-sukhumvit-11/units/unit_506_27-48_5/v1_image_2.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-sukhumvit-11/units/unit_506_27-48_5/v1_image_3.png"
+        ]
+      },
+      {
+        "property_id": "344",
+        "unit_type": "1 bedroom",
+        "floor": 26,
+        "sqm": 34.9,
+        "bed": 1,
+        "bath": 1,
+        "start_price": 299640.00,
+        "currency": "USD",
+        "weekly_rent": 282.3531,
+        "rental_yield": 4.9,
+        "parking_lots": 0,
+        "direction_facing": "west",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-sukhumvit-11/units/unit_2608_27-338_26/v1_image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-sukhumvit-11/units/unit_2608_27-338_26/v1_image_2.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-sukhumvit-11/units/unit_2608_27-338_26/v1_image_3.png"
+        ]
+      },
+      {
+        "property_id": "403",
+        "unit_type": "1 bedroom",
+        "floor": 5,
+        "sqm": 35.2,
+        "bed": 1,
+        "bath": 1,
+        "start_price": 243144.00,
+        "currency": "USD",
+        "weekly_rent": 229.1165,
+        "rental_yield": 4.9,
+        "parking_lots": 0,
+        "direction_facing": "north",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-sukhumvit-11/units/unit_510_27-52_5/v1_image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-sukhumvit-11/units/unit_510_27-52_5/v1_image_2.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-sukhumvit-11/units/unit_510_27-52_5/v1_image_3.png"
+        ]
+      },
+      {
+        "property_id": "346",
+        "unit_type": "2 bedrooms",
+        "floor": 6,
+        "sqm": 52.4,
+        "bed": 2,
+        "bath": 2,
+        "start_price": 337656.00,
+        "currency": "USD",
+        "weekly_rent": 285.7089,
+        "rental_yield": 4.4,
+        "parking_lots": 0,
+        "direction_facing": "south",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-sukhumvit-11/units/unit_603_27-59_6/v1_image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-sukhumvit-11/units/unit_603_27-59_6/v1_image_2.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-sukhumvit-11/units/unit_603_27-59_6/v1_image_3.png"
+        ]
+      },
+      {
+        "property_id": "348",
+        "unit_type": "2 bedrooms",
+        "floor": 7,
+        "sqm": 58.5,
+        "bed": 2,
+        "bath": 2,
+        "start_price": 356763.00,
+        "currency": "USD",
+        "weekly_rent": 301.8764,
+        "rental_yield": 4.4,
+        "parking_lots": 0,
+        "direction_facing": "east",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-sukhumvit-11/units/unit_711_27-81_7/v1_image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-sukhumvit-11/units/unit_711_27-81_7/v1_image_2.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-sukhumvit-11/units/unit_711_27-81_7/v1_image_3.png"
+        ]
+      },
+      {
+        "property_id": "350",
+        "unit_type": "2 bedrooms",
+        "floor": 2,
+        "sqm": 63.8,
+        "bed": 2,
+        "bath": 2,
+        "start_price": 376431.00,
+        "currency": "USD",
+        "weekly_rent": 318.5185,
+        "rental_yield": 4.4,
+        "parking_lots": 0,
+        "direction_facing": "west",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-sukhumvit-11/units/unit_205_27-5_2/v1_image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-sukhumvit-11/units/unit_205_27-5_2/v1_image_2.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-sukhumvit-11/units/unit_205_27-5_2/v1_image_3.png"
+        ]
+      },
+      {
+        "property_id": "352",
+        "unit_type": "3 bedrooms",
+        "floor": 31,
+        "sqm": 85.3,
+        "bed": 3,
+        "bath": 2,
+        "start_price": 676632.00,
+        "currency": "USD",
+        "weekly_rent": 572.5348,
+        "rental_yield": 4.4,
+        "parking_lots": 0,
+        "direction_facing": "north",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-sukhumvit-11/units/unit_3108_27-408_31/v1_image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-sukhumvit-11/units/unit_3108_27-408_31/v1_image_2.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-sukhumvit-11/units/unit_3108_27-408_31/v1_image_3.png"
+        ]
+      },
+      {
+        "property_id": "354",
+        "unit_type": "Duplex",
+        "floor": 12,
+        "sqm": 63.1,
+        "bed": 1,
+        "bath": 2,
+        "start_price": 457677.00,
+        "currency": "USD",
+        "weekly_rent": 387.2652,
+        "rental_yield": 4.4,
+        "parking_lots": 0,
+        "direction_facing": "south",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-sukhumvit-11/units/unit_1207%2C1107_27-133_12/v1_image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-sukhumvit-11/units/unit_1207%2C1107_27-133_12/v1_image_2.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-sukhumvit-11/units/unit_1207%2C1107_27-133_12/v1_image_3.png"
+        ]
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/embed/YtktgDmHP8Y",
+        "type": "youtube",
+        "header_text": "Video intro"
+      }
+    ],
+    "team_behind": {
+      "developer": {
+        "name": "GRANDE ASSET HOTELS & PROPERTY",
+        "description": "The Company focuses its business and long term investment in hotel and real estate development. For the investment in hotel, the Company will focuses mainly on the investment in international and globally managed brand of 4-5 star hotel.",
+        "logos": [
+          "/assets/images/team_behind_logo/grande-asset-hotels.jpeg"
+        ],
+        "website": "https://www.grandeasset.com/en"
+      },
+      "architect": {
+        "name": "I'LL DESIGN STUDIO",
+        "description": "I'll Design Studio is the architectural and interior design firm established since June 2002 by Mr.Prudti Yothongyot. Our company has grown steadily over the past 10 years. We have a diversified portfolio both of domestic and abroad. With the all experience make we are able to crystallize the creative idea and professional in architecture, interior, landscape including 3D model and animation. These are the reasons we can serve clients completely and efficiently.",
+        "logos": [
+          "/assets/images/team_behind_logo/ill-design-studio.png"
+        ],
+        "website": "http://www.iwilldesign.co.th/"
+      },
+      "builder": null,
+      "interior_designer": null,
+      "landscaper": null
+    },
+    "completion_status": 1.0,
+    "availability": 0.3,
+    "pricing_description": "Starting from USD 200,000",
+    "bedrooms_description": "Studio, 1, 2 and 3 bedroom configurations",
+    "residences_description": "478 units",
+    "estimated_completion": "2017",
+    "units_available": "125 units available",
+    "description": "World-renowned for it’s premium luxury, Sukhumvit now crowns a dazzling new icon at Hyde Sukhumvit 11. The term ‘pinnacle’ perfectly describes the cluster of nine bright spires that cap the crest of this stately tower gracing the Sukhumvit skyline. Without doubt, the designers at A49 intended these magnificent “crystal-like” peaks to symbolise a steep ascension to the summit of residential elegance, and that’s exactly the effect they’ve achieved.",
+    "brochure_url": "https://ixk3y98pggm.typeform.com/to/Fw4i23mh",
+    "images": [
+      {
+        "src": "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-sukhumvit-11/hyde-sukhumvit-11-slider-1.jpg",
+        "alt": ""
+      },
+      {
+        "src": "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-sukhumvit-11/hyde-sukhumvit-11-slider-2.jpg",
+        "alt": ""
+      },
+      {
+        "src": "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-sukhumvit-11/hyde-sukhumvit-11-slider-3.jpg",
+        "alt": ""
+      },
+      {
+        "src": "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-sukhumvit-11/hyde-sukhumvit-11-slider-4.jpg",
+        "alt": ""
+      },
+      {
+        "src": "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-sukhumvit-11/hyde-sukhumvit-11-slider-5.jpg",
+        "alt": ""
+      },
+      {
+        "src": "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-sukhumvit-11/hyde-sukhumvit-11-slider-6.jpg",
+        "alt": ""
+      },
+      {
+        "src": "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/hyde-sukhumvit-11/hyde-sukhumvit-11-slider-7.jpg",
+        "alt": ""
+      }
+    ],
+    "breadcrumbs": [
+      {
+        "text": "Thailand",
+        "url": "/thailand"
+      },
+      {
+        "text": "Hyde Sukhumvit 11",
+        "url": "/project/hyde-sukhumvit-11"
+      }
+    ]
+  },
+  {
+    "project_id": "198",
+    "country_fk": "19",
+    "slug": "the-issara-sathorn",
+    "name": "The Issara Sathorn",
+    "property_header_info": {
+      "name": "Discover The Issara Sathorn ",
+      "short_description": "Unbeatable investment opportunity in a Bangkok growth residential neighbourhoud",
+      "descriptions": [
+        "Low starting price point of USD 200,000 per unit",
+        "Fully furnished",
+        "Close to new BTS with direct link to One Bangkok, major mixed-use development on track for opening in 2022"
+      ],
+      "cover_picture_url": "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-issara-sathorn/the-issara-sathorn-cover.png"
+    },
+    "location": {
+      "address": "Chan Kao Rd, Khwaeng Thung Maha Mek, Sathorn, Bangkok",
+      "lat": 13.70586959555249,
+      "lng": 100.54145436947225,
+      "google_map_url": "https://www.google.com.sg/maps/place/Thao+Dien,+District+2,+Ho+Chi+Minh+City,+Vietnam/@10.8092575,106.7179086,14z"
+    },
+    "location_map": [
+      {
+        "name": "Supermarkets",
+        "slug": "supermarkets",
+        "locations": [
+          {
+            "name": "location 1",
+            "lat": 41.3954,
+            "lng": 2.162
+          }
+        ]
+      },
+      {
+        "name": "Cafes",
+        "slug": "cafes",
+        "locations": [
+          {
+            "name": "location 1",
+            "lat": 41.3954,
+            "lng": 2.162
+          }
+        ]
+      },
+      {
+        "name": "Bars",
+        "slug": "bars",
+        "locations": [
+          {
+            "name": "location 1",
+            "lat": 41.3954,
+            "lng": 2.162
+          }
+        ]
+      },
+      {
+        "name": "Schools",
+        "slug": "schools",
+        "locations": [
+          {
+            "name": "location 1",
+            "lat": 41.3954,
+            "lng": 2.162
+          }
+        ]
+      },
+      {
+        "name": "Kindergardens",
+        "slug": "kindergardens",
+        "locations": [
+          {
+            "name": "location 1",
+            "lat": 41.3954,
+            "lng": 2.162
+          }
+        ]
+      }
+    ],
+    "features": [
+      {
+        "name": "Swimming pool",
+        "type": "pool"
+      },
+      {
+        "name": "Garden",
+        "type": "garden"
+      },
+      {
+        "name": "Gym",
+        "type": "gym"
+      },
+      {
+        "name": "Game room",
+        "type": "game-room"
+      },
+      {
+        "name": "Steam room",
+        "type": "steam-room"
+      },
+      {
+        "name": "Storage room",
+        "type": "utility-area"
+      },
+      {
+        "name": "100% parking",
+        "type": "parking"
+      }
+    ],
+    "location_nearby": [
+      {
+        "type": "transport",
+        "locations": [
+          {
+            "name": "Near BTS, MRT, BRT and Express way Ratchadapisek Rd."
+          }
+        ]
+      },
+      {
+        "type": "school",
+        "locations": [
+          {
+            "name": "Garden International School, Raintree International School and St. Joseph Convent School"
+          }
+        ]
+      },
+      {
+        "type": "nearby",
+        "locations": [
+          {
+            "name": "Restaurants, market place, international schools, as well as hospitals near by"
+          }
+        ]
+      }
+    ],
+    "units_available_for_purchase": [
+      {
+        "property_id": "357",
+        "unit_type": "1 bedroom",
+        "floor": "28",
+        "sqm": 32.7,
+        "bed": 1,
+        "bath": 1,
+        "start_price": 201474.90,
+        "currency": "USD",
+        "weekly_rent": 232.4710,
+        "rental_yield": 6,
+        "parking_lots": 1,
+        "direction_facing": "",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-issara-sathorn/units/unit_2702_27/v1_image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-issara-sathorn/units/unit_2702_27/v1_image_2.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-issara-sathorn/units/unit_2702_27/v1_image_3.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-issara-sathorn/units/unit_2702_27/v1_image_4.png"
+        ]
+      },
+      {
+        "property_id": "362",
+        "unit_type": "1 bedroom",
+        "floor": "28",
+        "sqm": 32.9,
+        "bed": 1,
+        "bath": 1,
+        "start_price": 202844.40,
+        "currency": "USD",
+        "weekly_rent": 234.0512,
+        "rental_yield": 6,
+        "parking_lots": 1,
+        "direction_facing": "",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-issara-sathorn/units/unit_2704_27/v1_image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-issara-sathorn/units/unit_2704_27/v1_image_2.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-issara-sathorn/units/unit_2704_27/v1_image_3.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-issara-sathorn/units/unit_2704_27/v1_image_4.png"
+        ]
+      },
+      {
+        "property_id": "364",
+        "unit_type": "1 bedroom",
+        "floor": "28",
+        "sqm": 47.2,
+        "bed": 1,
+        "bath": 1,
+        "start_price": 291244.80,
+        "currency": "USD",
+        "weekly_rent": 336.0517,
+        "rental_yield": 6,
+        "parking_lots": 1,
+        "direction_facing": "",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-issara-sathorn/units/unit_2713_27/v1_image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-issara-sathorn/units/unit_2713_27/v1_image_2.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-issara-sathorn/units/unit_2713_27/v1_image_3.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-issara-sathorn/units/unit_2713_27/v1_image_4.png"
+        ]
+      },
+      {
+        "property_id": "366",
+        "unit_type": "1 bedroom",
+        "floor": "28",
+        "sqm": 37.2,
+        "bed": 1,
+        "bath": 1,
+        "start_price": 228297.30,
+        "currency": "USD",
+        "weekly_rent": 263.4200,
+        "rental_yield": 6,
+        "parking_lots": 1,
+        "direction_facing": "",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-issara-sathorn/units/unit_2708_27/v1_image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-issara-sathorn/units/unit_2708_27/v1_image_2.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-issara-sathorn/units/unit_2708_27/v1_image_3.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-issara-sathorn/units/unit_2708_27/v1_image_4.png"
+        ]
+      },
+      {
+        "property_id": "368",
+        "unit_type": "2 bedrooms",
+        "floor": "28",
+        "sqm": 60,
+        "bed": 2,
+        "bath": 2,
+        "start_price": 366564.00,
+        "currency": "USD",
+        "weekly_rent": 352.4654,
+        "rental_yield": 5,
+        "parking_lots": 1,
+        "direction_facing": "",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-issara-sathorn/units/unit_2801_28/v1_image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-issara-sathorn/units/unit_2801_28/v1_image_2.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-issara-sathorn/units/unit_2801_28/v1_image_3.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-issara-sathorn/units/unit_2801_28/v1_image_4.png"
+        ]
+      },
+      {
+        "property_id": "372",
+        "unit_type": "2 bedrooms",
+        "floor": "28",
+        "sqm": 63,
+        "bed": 2,
+        "bath": 2,
+        "start_price": 392016.90,
+        "currency": "USD",
+        "weekly_rent": 376.9393,
+        "rental_yield": 5,
+        "parking_lots": 1,
+        "direction_facing": "",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-issara-sathorn/units/unit_2712_27/v1_image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-issara-sathorn/units/unit_2712_27/v1_image_2.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-issara-sathorn/units/unit_2712_27/v1_image_3.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-issara-sathorn/units/unit_2712_27/v1_image_4.png"
+        ]
+      },
+      {
+        "property_id": "370",
+        "unit_type": "2 bedrooms",
+        "floor": "28",
+        "sqm": 88.2,
+        "bed": 2,
+        "bath": 2,
+        "start_price": 548809.80,
+        "currency": "USD",
+        "weekly_rent": 527.7017,
+        "rental_yield": 5,
+        "parking_lots": 1,
+        "direction_facing": "",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-issara-sathorn/units/unit_2706_27/v1_image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-issara-sathorn/units/unit_2706_27/v1_image_2.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-issara-sathorn/units/unit_2706_27/v1_image_3.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-issara-sathorn/units/unit_2706_27/v1_image_4.png"
+        ]
+      },
+      {
+        "property_id": "374",
+        "unit_type": "2 bedrooms",
+        "floor": "27",
+        "sqm": 88.1,
+        "bed": 2,
+        "bath": 2,
+        "start_price": 548625.00,
+        "currency": "USD",
+        "weekly_rent": 527.5240,
+        "rental_yield": 5,
+        "parking_lots": 1,
+        "direction_facing": "",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-issara-sathorn/units/unit_2707_27/v1_image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-issara-sathorn/units/unit_2707_27/v1_image_2.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-issara-sathorn/units/unit_2707_27/v1_image_3.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-issara-sathorn/units/unit_2707_27/v1_image_4.png"
+        ]
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/embed/_w2rIJc7HZQ",
+        "type": "youtube",
+        "header_text": "Video intro"
+      }
+    ],
+    "team_behind": {
+      "developer": {
+        "name": "Charn Issara Development",
+        "logos": [
+          "/assets/images/team_behind_logo/charn-issara-development.png"
+        ],
+        "description": "Charn Issara Development Public Company Limited is at the forefront of Thailand’s real estate developers. For over the past three decades, they have grown dramatically and continuously not only in terms of financial turnover and employees, but also in their ability to offer new heights of quality living through housing innovations.",
+        "website": "https://charnissara.com/"
+      },
+      "architect": {
+        "name": "A49",
+        "logos": [
+          "/assets/images/team_behind_logo/a49.png"
+        ],
+        "description": "Architects 49 was established in 1983 by Nithi Sthapitanonda. From the beginning, his vision has always been timeless architecture with clean, simple, and elegant lines. With a keen interest in Thai art and architecture, their founder established the groundwork for present generations to follow. The team has since expanded to more than 200 collaborators, working on projects around Asia and in the Middle East.",
+        "website": "http://www.a49.com/"
+      },
+      "builder": null,
+      "interior_designer": null,
+      "landscaper": null
+    },
+    "completion_status": 0.4,
+    "availability": 0.9,
+    "pricing_description": "Starting from USD 200,000",
+    "bedrooms_description": "1 and 2 bedroom configurations",
+    "residences_description": "270 units",
+    "estimated_completion": "End 2023",
+    "units_available": "26 units available",
+    "description": "The Issara Sathorn is wonderfully located in the ‘sacred’ zone where nature transforms into urbanity. This transitional location is an ideal place to live in as you will truly get the best of both world. Being an ideal location (haven) to live and reside, a vibrant community has flourished naturally over time. This is evidenced in the countless cultures of both old and new, co-existing harmoniously together. If you are to venture outside of this lovely community, Naratiwat and Nanglinchi Road take you right into the CBD and the Expressway. This area is truly a place to expand all sides of your life.",
+    "brochure_url": "https://ixk3y98pggm.typeform.com/to/KJaH6Ysk",
+    "images": [
+      {
+        "src": "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-issara-sathorn/the-issara-sathorn-slider-1.jpg",
+        "alt": ""
+      },
+      {
+        "src": "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-issara-sathorn/the-issara-sathorn-slider-2.jpg",
+        "alt": ""
+      },
+      {
+        "src": "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-issara-sathorn/the-issara-sathorn-slider-3.jpg",
+        "alt": ""
+      },
+      {
+        "src": "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-issara-sathorn/the-issara-sathorn-slider-4.jpg",
+        "alt": ""
+      },
+      {
+        "src": "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-issara-sathorn/the-issara-sathorn-slider-5.jpg",
+        "alt": ""
+      },
+      {
+        "src": "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-issara-sathorn/the-issara-sathorn-slider-6.jpg",
+        "alt": ""
+      }
+    ],
+    "breadcrumbs": [
+      {
+        "text": "Thailand",
+        "url": "/thailand"
+      },
+      {
+        "text": "Issara Sathorn",
+        "url": "/project/the-issara-sathorn"
+      }
+    ]
+  },
+  {
+    "project_id": "230",
+    "country_fk": "21",
+    "slug": "the-albany",
+    "name": "The Albany",
+    "property_header_info": {
+      "name": "Discover The Albany",
+      "short_description": "Vietnam’s latest most exclusive and luxury development",
+      "descriptions": [
+        "Start at just 1 million USD",
+        "Only 22 residences",
+        "The highly professional and attentive staff"
+      ],
+      "cover_picture_url": "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-albany/the-albany-cover.png"
+    },
+    "location": {
+      "address": "Thảo Điền, District 2, Ho Chi Minh City",
+      "lat": 10.8064,
+      "lng": 106.7323,
+      "google_map_url": "https://www.google.com.sg/maps/place/Thao+Dien,+District+2,+Ho+Chi+Minh+City,+Vietnam/@10.8092575,106.7179086,14z"
+    },
+    "location_map": [
+      {
+        "name": "Supermarkets",
+        "slug": "supermarkets",
+        "locations": [
+          {
+            "name": "location 1",
+            "lat": 41.3924,
+            "lng": 2.162
+          }
+        ]
+      },
+      {
+        "name": "Cafes",
+        "slug": "cafes",
+        "locations": [
+          {
+            "name": "location 1",
+            "lat": 41.3954,
+            "lng": 2.162
+          }
+        ]
+      },
+      {
+        "name": "Bars",
+        "slug": "bars",
+        "locations": [
+          {
+            "name": "location 1",
+            "lat": 41.3954,
+            "lng": 2.162
+          }
+        ]
+      },
+      {
+        "name": "Schools",
+        "slug": "schools",
+        "locations": [
+          {
+            "name": "location 1",
+            "lat": 41.3954,
+            "lng": 2.162
+          }
+        ]
+      },
+      {
+        "name": "Kindergardens",
+        "slug": "kindergardens",
+        "locations": [
+          {
+            "name": "location 1",
+            "lat": 41.3954,
+            "lng": 2.162
+          }
+        ]
+      }
+    ],
+    "features": [
+      {
+        "name": "Swimming pool",
+        "type": "pool"
+      },
+      {
+        "name": "Utility Area and private storage",
+        "type": "utility-area"
+      },
+      {
+        "name": "Garden",
+        "type": "garden"
+      },
+      {
+        "name": "24-hour in-house security team",
+        "type": "security"
+      }
+    ],
+    "location_nearby": [
+      {
+        "type": "transport",
+        "locations": [
+          {
+            "name": "700m from the metro station no.03"
+          }
+        ]
+      },
+      {
+        "type": "school",
+        "locations": [
+          {
+            "name": "5 minute walk to International School of Ho Chi Minh"
+          }
+        ]
+      },
+      {
+        "type": "nearby",
+        "locations": [
+          {
+            "name": "Wide range of new restaurants and bars in District 2 (popular for foreigners)"
+          }
+        ]
+      },
+      {
+        "type": "nearby",
+        "locations": [
+          {
+            "name": "The Albany is conveniently located near the city’s best international restaurants, cafes and shopping all situated within minutes from your doorstep.",
+            "distance": 300
+          }
+        ]
+      }
+    ],
+    "units_available_for_purchase": [
+      {
+        "property_id": "376",
+        "unit_type": "3 bedrooms",
+        "floor": 2,
+        "sqm": 221.5,
+        "bed": 3,
+        "bath": 5,
+        "start_price": 1240120,
+        "currency": "USD",
+        "weekly_rent": 1669.3923,
+        "rental_yield": 7,
+        "parking_lots": 1,
+        "direction_facing": "north",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-albany/units/unit_2B_2/v1_image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-albany/units/unit_2B_2/v1_image_2.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-albany/units/unit_2B_2/v1_image_3.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-albany/units/unit_2B_2/v1_image_4.png"
+        ]
+      },
+      {
+        "property_id": "381",
+        "unit_type": "3 bedrooms",
+        "floor": 2,
+        "sqm": 200,
+        "bed": 3,
+        "bath": 5,
+        "start_price": 1119552,
+        "currency": "USD",
+        "weekly_rent": 1507.0892,
+        "rental_yield": 7,
+        "parking_lots": 1,
+        "direction_facing": "north-east",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-albany/units/unit_2C_2/v1_image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-albany/units/unit_2C_2/v1_image_2.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-albany/units/unit_2C_2/v1_image_3.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-albany/units/unit_2C_2/v1_image_4.png"
+        ]
+      },
+      {
+        "property_id": "383",
+        "unit_type": "3 bedrooms",
+        "floor": 3,
+        "sqm": 221.5,
+        "bed": 3,
+        "bath": 5,
+        "start_price": 1284410,
+        "currency": "USD",
+        "weekly_rent": 1729.0135,
+        "rental_yield": 7,
+        "parking_lots": 1,
+        "direction_facing": "north",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-albany/units/unit_3B_3/v1_image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-albany/units/unit_3B_3/v1_image_2.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-albany/units/unit_3B_3/v1_image_3.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-albany/units/unit_3B_3/v1_image_4.png"
+        ]
+      },
+      {
+        "property_id": "384",
+        "unit_type": "3 bedrooms",
+        "floor": 3,
+        "sqm": 200,
+        "bed": 3,
+        "bath": 5,
+        "start_price": 1159536,
+        "currency": "USD",
+        "weekly_rent": 1560.9138,
+        "rental_yield": 7,
+        "parking_lots": 1,
+        "direction_facing": "north-east",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-albany/units/unit_3C_3/v1_image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-albany/units/unit_3C_3/v1_image_2.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-albany/units/unit_3C_3/v1_image_3.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-albany/units/unit_3C_3/v1_image_4.png"
+        ]
+      },
+      {
+        "property_id": "385",
+        "unit_type": "3 bedrooms",
+        "floor": 4,
+        "sqm": 221.5,
+        "bed": 3,
+        "bath": 5,
+        "start_price": 1328700,
+        "currency": "USD",
+        "weekly_rent": 1788.6346,
+        "rental_yield": 7,
+        "parking_lots": 1,
+        "direction_facing": "north",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-albany/units/unit_4B_4/v1_image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-albany/units/unit_4B_4/v1_image_2.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-albany/units/unit_4B_4/v1_image_3.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-albany/units/unit_4B_4/v1_image_4.png"
+        ]
+      },
+      {
+        "property_id": "387",
+        "unit_type": "3 bedrooms",
+        "floor": 4,
+        "sqm": 200,
+        "bed": 3,
+        "bath": 5,
+        "start_price": 1199520,
+        "currency": "USD",
+        "weekly_rent": 1614.7385,
+        "rental_yield": 7,
+        "parking_lots": 1,
+        "direction_facing": "north-east",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-albany/units/unit_4C_4/v1_image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-albany/units/unit_4C_4/v1_image_2.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-albany/units/unit_4C_4/v1_image_3.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-albany/units/unit_4C_4/v1_image_4.png"
+        ]
+      },
+      {
+        "property_id": "388",
+        "unit_type": "3 bedrooms",
+        "floor": 5,
+        "sqm": 200,
+        "bed": 3,
+        "bath": 5,
+        "start_price": 1299480,
+        "currency": "USD",
+        "weekly_rent": 1749.3000,
+        "rental_yield": 7,
+        "parking_lots": 1,
+        "direction_facing": "north-east",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-albany/units/unit_5C_5/v1_image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-albany/units/unit_5C_5/v1_image_2.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-albany/units/unit_5C_5/v1_image_3.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-albany/units/unit_5C_5/v1_image_4.png"
+        ]
+      },
+      {
+        "property_id": "389",
+        "unit_type": "3 bedrooms",
+        "floor": 6,
+        "sqm": 221.5,
+        "bed": 3,
+        "bath": 5,
+        "start_price": 1550150,
+        "currency": "USD",
+        "weekly_rent": 2086.7404,
+        "rental_yield": 7,
+        "parking_lots": 1,
+        "direction_facing": "north",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-albany/units/unit_6B_6/v1_image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-albany/units/unit_6B_6/v1_image_2.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-albany/units/unit_6B_6/v1_image_3.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-albany/units/unit_6B_6/v1_image_4.png"
+        ]
+      },
+      {
+        "property_id": "390",
+        "unit_type": "3 bedrooms",
+        "floor": 6,
+        "sqm": 200,
+        "bed": 3,
+        "bath": 5,
+        "start_price": 1399440,
+        "currency": "USD",
+        "weekly_rent": 17883.8615,
+        "rental_yield": 7,
+        "parking_lots": 1,
+        "direction_facing": "north-east",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-albany/units/unit_6C_6/v1_image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-albany/units/unit_6C_6/v1_image_2.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-albany/units/unit_6C_6/v1_image_3.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-albany/units/unit_6C_6/v1_image_4.png"
+        ]
+      },
+      {
+        "property_id": "391",
+        "unit_type": "3 bedrooms",
+        "floor": 7,
+        "sqm": 221.5,
+        "bed": 3,
+        "bath": 5,
+        "start_price": 1660875,
+        "currency": "USD",
+        "weekly_rent": 2235.7933,
+        "rental_yield": 7,
+        "parking_lots": 1,
+        "direction_facing": "north",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-albany/units/unit_7B_7/v1_image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-albany/units/unit_7B_7/v1_image_2.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-albany/units/unit_7B_7/v1_image_3.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-albany/units/unit_7B_7/v1_image_4.png"
+        ]
+      },
+      {
+        "property_id": "392",
+        "unit_type": "3 bedrooms",
+        "floor": 7,
+        "sqm": 200,
+        "bed": 3,
+        "bath": 5,
+        "start_price": 1499400,
+        "currency": "USD",
+        "weekly_rent": 2018.4231,
+        "rental_yield": 7,
+        "parking_lots": 1,
+        "direction_facing": "north-east",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-albany/units/unit_7C_7/v1_image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-albany/units/unit_7C_7/v1_image_2.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-albany/units/unit_7C_7/v1_image_3.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-albany/units/unit_7C_7/v1_image_4.png"
+        ]
+      },
+      {
+        "property_id": "393",
+        "unit_type": "3 bedrooms",
+        "floor": 8,
+        "sqm": 401,
+        "bed": 3,
+        "bath": 5,
+        "start_price": 2314987,
+        "currency": "USD",
+        "weekly_rent": 3116.3287,
+        "rental_yield": 7,
+        "parking_lots": 1,
+        "direction_facing": "north",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-albany/units/unit-PH-8B_8%2C9/v1_image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-albany/units/unit-PH-8B_8%2C9/v1_image_2.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-albany/units/unit-PH-8B_8%2C9/v1_image_3.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-albany/units/unit-PH-8B_8%2C9/v1_image_4.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-albany/units/unit-PH-8B_8%2C9/v1_image_5.png"
+        ]
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/embed/7p1AM5e_F3Q",
+        "type": "youtube",
+        "header_text": "Video intro"
+      }
+    ],
+    "team_behind": {
+      "developer": {
+        "name": "Sonkim Land",
+        "description": "SonKim Land (SKL) is an industry leader in Vietnam’s luxury real estate segment, SKL has a finger to the pulse of the local market, with projects that represent the apex of quality, innovation and sophistication in the luxury property market. We focuses on developing people with empowerment culture as dynamic, highly motivated, career-oriented individuals. Our people is the cornerstone of our business, value and growth.",
+        "logos": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-albany/SonkimLandLogo.svg"
+        ],
+        "website": "https://www.sonkimland.vn/"
+      },
+      "architect": {
+        "name": "B&Co",
+        "description": "B&Co, a renowned Hong Kong-based design firm which was established in 1992 by Branko Pahor. The company has completed over 200 Hong Kong projects, as well as many International Design Developments throughout Asia, Australia and the United States, including the award-winning Andara Resort in Phuket. Attention to detail helps them to create, innovate and deliver quality design solutions that are timeless, comfortable and above all—beautiful and elegant.",
+        "logos": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-albany/a63fec_be364a6ec1e14005bd0150ef475e391c.webp"
+        ],
+        "website": "https://www.bandco.com.hk/"
+      },
+      "builder": null,
+      "interior_designer": {
+        "name": "B&Co",
+        "description": "B&Co, a renowned Hong Kong-based design firm which was established in 1992 by Branko Pahor. The company has completed over 200 Hong Kong projects, as well as many International Design Developments throughout Asia, Australia and the United States, including the award-winning Andara Resort in Phuket. Attention to detail helps them to create, innovate and deliver quality design solutions that are timeless, comfortable and above all—beautiful and elegant.",
+        "logos": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-albany/a63fec_be364a6ec1e14005bd0150ef475e391c.webp"
+        ],
+        "website": "https://www.bandco.com.hk/"
+      },
+      "landscaper": null
+    },
+    "completion_status": 1.0,
+    "availability": 0.1,
+    "pricing_description": "Starting from USD 1,120,000",
+    "bedrooms_description": "3 bedroom configurations",
+    "residences_description": "22 units",
+    "estimated_completion": "Completed in Q1 2019",
+    "units_available": "12 units available",
+    "description": "The Albany is without doubt one of the most exclusive, intimate and luxurious of all the residences on offer in Thao Dien. This boutique and premiere residential development faces the famous Saigon River and the lush, tropical landscape of Thao Dien. With its high-end, personalized service, bespoke design and modern resort feel, The Albany will be among the most sought-after new addresses in Ho Chi Minh City.",
+    "brochure_url": "https://ixk3y98pggm.typeform.com/to/WlwDSrBw",
+    "images": [
+      {
+        "src": "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-albany/the-albany-slider-1.jpg",
+        "alt": ""
+      },
+      {
+        "src": "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-albany/the-albany-slider-2.jpg",
+        "alt": ""
+      },
+      {
+        "src": "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-albany/the-albany-slider-3.jpg",
+        "alt": ""
+      },
+      {
+        "src": "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-albany/the-albany-slider-4.jpg",
+        "alt": ""
+      },
+      {
+        "src": "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-albany/the-albany-slider-5.jpg",
+        "alt": ""
+      },
+      {
+        "src": "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/the-albany/the-albany-slider-6.jpg",
+        "alt": ""
+      }
+    ],
+    "breadcrumbs": [
+      {
+        "text": "Vietnam",
+        "url": "/vietnam"
+      },
+      {
+        "text": "The Albany",
+        "url": "/project/the-albany"
+      }
+    ]
+  },
+  {
+    "project_id": "257",
+    "country_fk": "26",
+    "slug": "yarra-one",
+    "name": "Yarra One",
+    "property_header_info": {
+      "name": "Discover Yarra One",
+      "short_description": "Presenting a crafted collection of residences rising above Melbourne’s most exclusive locale.",
+      "descriptions": [
+        "The last possible tower to go up on South Yarra's Forrest Hill, 3 minutes from the train station, and 2 minutes to trams on Toorak Road",
+        "Luxurious finish and facilities including one of the best rooftop BBQ areas you will see in Melbourne",
+        "Mixed use with restaurant/cafe and co-working spaces designated in the building"
+      ],
+      "cover_picture_url": "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/yarra-one-cover.jpg"
+    },
+    "location": {
+      "address": "18 Claremont Street ,South Yarra VIC 3141, Australia",
+      "lat": -37.83720394453563,
+      "lng": 144.99417329326502,
+      "google_map_url": "https://www.google.com.sg/maps/place/18+Claremont+St,+South+Yarra+VIC+3141,+Australia/@-37.8376025,144.9919294,17z/data=!3m1!4b1!4m5!3m4!1s0x6ad6429cb1ee21eb:0x59fb533821bb8578!8m2!3d-37.8376025!4d144.9941181"
+    },
+    "location_map": [
+      {
+        "name": "Supermarkets",
+        "slug": "supermarkets",
+        "locations": [
+          {
+            "name": "location 1",
+            "lat": 41.3924,
+            "lng": 2.162
+          }
+        ]
+      },
+      {
+        "name": "Cafes",
+        "slug": "cafes",
+        "locations": [
+          {
+            "name": "location 1",
+            "lat": 41.3954,
+            "lng": 2.162
+          }
+        ]
+      },
+      {
+        "name": "Bars",
+        "slug": "bars",
+        "locations": [
+          {
+            "name": "location 1",
+            "lat": 41.3954,
+            "lng": 2.162
+          }
+        ]
+      },
+      {
+        "name": "Schools",
+        "slug": "schools",
+        "locations": [
+          {
+            "name": "location 1",
+            "lat": 41.3954,
+            "lng": 2.162
+          }
+        ]
+      },
+      {
+        "name": "Kindergardens",
+        "slug": "kindergardens",
+        "locations": [
+          {
+            "name": "location 1",
+            "lat": 41.3954,
+            "lng": 2.162
+          }
+        ]
+      }
+    ],
+    "features": [
+      {
+        "name": "Lobby concierge",
+        "type": "concierge"
+      },
+      {
+        "name": "Residents’ shared Tesla Car and car wash bay",
+        "type": "parking"
+      },
+      {
+        "name": "Sauna",
+        "type": "sauna"
+      },
+      {
+        "name": "Steam Room",
+        "type": "steam-room"
+      },
+      {
+        "name": "Wellness Club",
+        "type": "gym"
+      },
+      {
+        "name": "Residents’ dog wash",
+        "type": "dog-wash"
+      },
+      {
+        "name": "Co Working Space and Meeting room",
+        "type": "library"
+      },
+      {
+        "name": "Residence Club",
+        "type": "residence-club"
+      },
+      {
+        "name": "Rooftop Terrace with BBQ Facilities",
+        "type": "garden"
+      },
+      {
+        "name": "Private Wine Cellars and private kitchen/dining",
+        "type": "wine"
+      }
+    ],
+    "location_nearby": [
+      {
+        "type": "transport",
+        "locations": [
+          {
+            "name": "2 train stops from Melbourne’s CBD – less than 10 mins, 15 mins drive to CBD"
+          }
+        ]
+      },
+      {
+        "type": "school",
+        "locations": [
+          {
+            "name": "Melbourne’s leading schools nearby: Melbourne High School, Melbourne Girls’ Grammar, Melbourne Grammar, Mac. Robertson Girls’ High School"
+          }
+        ]
+      },
+      {
+        "type": "nearby",
+        "locations": [
+          {
+            "name": "Ground, First, Second, & Third Floor retail and offices"
+          }
+        ]
+      },
+      {
+        "type": "nearby",
+        "locations": [
+          {
+            "name": "Royal Botanic Gardens, Albert Park, Fawkner Park, Olympic Boulevard within walking distance.",
+            "distance": 300
+          }
+        ]
+      }
+    ],
+    "units_available_for_purchase": [
+      {
+        "property_id": "524",
+        "unit_type": "1 bedroom",
+        "floor": 3,
+        "sqm": 67,
+        "bed": 1,
+        "bath": 1,
+        "start_price": 450000,
+        "currency": "USD",
+        "weekly_rent": null,
+        "rental_yield": null,
+        "parking_lots": 0,
+        "direction_facing": "west",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/a01/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_2.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_3.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_4.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_5.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_6.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_7.png"
+        ]
+      },
+      {
+        "property_id": "534",
+        "unit_type": "1 bedroom",
+        "floor": 3,
+        "sqm": 54,
+        "bed": 1,
+        "bath": 1,
+        "start_price": 382500,
+        "currency": "USD",
+        "weekly_rent": null,
+        "rental_yield": null,
+        "parking_lots": 0,
+        "direction_facing": "west",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/a02/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_2.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_3.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_4.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_5.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_6.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_7.png"
+        ]
+      },
+      {
+        "property_id": "536",
+        "unit_type": "1 bedroom",
+        "floor": 13,
+        "sqm": 50,
+        "bed": 1,
+        "bath": 1,
+        "start_price": 341250.00,
+        "currency": "USD",
+        "weekly_rent": null,
+        "rental_yield": null,
+        "parking_lots": 0,
+        "direction_facing": "east",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/a03/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_2.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_3.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_4.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_5.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_6.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_7.png"
+        ]
+      },
+      {
+        "property_id": "538",
+        "unit_type": "1 bedroom",
+        "floor": 15,
+        "sqm": 50,
+        "bed": 1,
+        "bath": 1,
+        "start_price": 0,
+        "currency": "USD",
+        "weekly_rent": null,
+        "rental_yield": null,
+        "parking_lots": 0,
+        "direction_facing": "east",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/a07/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_2.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_3.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_4.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_5.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_6.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_7.png"
+        ]
+      },
+      {
+        "property_id": "540",
+        "unit_type": "1 bedroom",
+        "floor": 15,
+        "sqm": 57,
+        "bed": 1,
+        "bath": 1,
+        "start_price": 438750,
+        "currency": "USD",
+        "weekly_rent": null,
+        "rental_yield": null,
+        "parking_lots": 0,
+        "direction_facing": "east",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/a09/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_2.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_3.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_4.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_5.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_6.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_7.png"
+        ]
+      },
+      {
+        "property_id": "542",
+        "unit_type": "1 bedroom",
+        "floor": 16,
+        "sqm": 50,
+        "bed": 1,
+        "bath": 1,
+        "start_price": 397500,
+        "currency": "USD",
+        "weekly_rent": null,
+        "rental_yield": null,
+        "parking_lots": 0,
+        "direction_facing": "east",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/a10/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_2.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_3.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_4.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_5.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_6.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_7.png"
+        ]
+      },
+      {
+        "property_id": "544",
+        "unit_type": "1 bedroom",
+        "floor": 19,
+        "sqm": 53,
+        "bed": 1,
+        "bath": 1,
+        "start_price": 401250,
+        "currency": "USD",
+        "weekly_rent": null,
+        "rental_yield": null,
+        "parking_lots": 0,
+        "direction_facing": "south",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/a11/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_2.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_3.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_4.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_5.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_6.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_7.png"
+        ]
+      },
+      {
+        "property_id": "546",
+        "unit_type": "2 bedrooms",
+        "floor": 15,
+        "sqm": 63,
+        "bed": 2,
+        "bath": 1,
+        "start_price": 468750,
+        "currency": "USD",
+        "weekly_rent": null,
+        "rental_yield": null,
+        "parking_lots": 0,
+        "direction_facing": "north",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/b01/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_2.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_3.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_4.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_5.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_6.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_7.png"
+        ]
+      },
+      {
+        "property_id": "548",
+        "unit_type": "2 bedrooms",
+        "floor": 19,
+        "sqm": 65,
+        "bed": 2,
+        "bath": 1,
+        "start_price": 525000,
+        "currency": "USD",
+        "weekly_rent": null,
+        "rental_yield": null,
+        "parking_lots": 0,
+        "direction_facing": "north",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/b02/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_2.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_3.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_4.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_5.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_6.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_7.png"
+        ]
+      },
+      {
+        "property_id": "550",
+        "unit_type": "2 bedrooms",
+        "floor": 3,
+        "sqm": 69,
+        "bed": 2,
+        "bath": 2,
+        "start_price": 495000,
+        "currency": "USD",
+        "weekly_rent": null,
+        "rental_yield": null,
+        "parking_lots": 0,
+        "direction_facing": "west",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/c01/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_2.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_3.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_4.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_5.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_6.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_7.png"
+        ]
+      },
+      {
+        "property_id": "552",
+        "unit_type": "2 bedrooms",
+        "floor": 16,
+        "sqm": 68,
+        "bed": 2,
+        "bath": 2,
+        "start_price": 541875,
+        "currency": "USD",
+        "weekly_rent": null,
+        "rental_yield": null,
+        "parking_lots": 0,
+        "direction_facing": "south",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/c03/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_2.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_3.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_4.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_5.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_6.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_7.png"
+        ]
+      },
+      {
+        "property_id": "554",
+        "unit_type": "2 bedrooms",
+        "floor": 10,
+        "sqm": 67,
+        "bed": 2,
+        "bath": 2,
+        "start_price": 536250,
+        "currency": "USD",
+        "weekly_rent": null,
+        "rental_yield": null,
+        "parking_lots": 0,
+        "direction_facing": "south",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/c04/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_2.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_3.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_4.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_5.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_6.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_7.png"
+        ]
+      },
+      {
+        "property_id": "556",
+        "unit_type": "2 bedrooms",
+        "floor": 4,
+        "sqm": 81,
+        "bed": 2,
+        "bath": 2,
+        "start_price": 562500,
+        "currency": "USD",
+        "weekly_rent": null,
+        "rental_yield": null,
+        "parking_lots": 0,
+        "direction_facing": "west",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/d01/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_2.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_3.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_4.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_5.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_6.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_7.png"
+        ]
+      },
+      {
+        "property_id": "558",
+        "unit_type": "2 bedrooms",
+        "floor": 13,
+        "sqm": 80,
+        "bed": 2,
+        "bath": 2,
+        "start_price": 693750,
+        "currency": "USD",
+        "weekly_rent": null,
+        "rental_yield": null,
+        "parking_lots": 0,
+        "direction_facing": "north-east",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/d02/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_2.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_3.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_4.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_5.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_6.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_7.png"
+        ]
+      },
+      {
+        "property_id": "560",
+        "unit_type": "2 bedrooms",
+        "floor": 3,
+        "sqm": 89,
+        "bed": 2,
+        "bath": 2,
+        "start_price": 596250,
+        "currency": "USD",
+        "weekly_rent": null,
+        "rental_yield": null,
+        "parking_lots": 0,
+        "direction_facing": "north-east",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/d02l/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_2.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_3.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_4.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_5.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_6.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_7.png"
+        ]
+      },
+      {
+        "property_id": "562",
+        "unit_type": "2 bedrooms",
+        "floor": 13,
+        "sqm": 84,
+        "bed": 2,
+        "bath": 2,
+        "start_price": 731250,
+        "currency": "USD",
+        "weekly_rent": null,
+        "rental_yield": null,
+        "parking_lots": 0,
+        "direction_facing": "west",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/d04/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_2.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_3.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_4.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_5.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_6.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_7.png"
+        ]
+      },
+      {
+        "property_id": "564",
+        "unit_type": "2 bedrooms",
+        "floor": 13,
+        "sqm": 73,
+        "bed": 2,
+        "bath": 2,
+        "start_price": 667500,
+        "currency": "USD",
+        "weekly_rent": null,
+        "rental_yield": null,
+        "parking_lots": 0,
+        "direction_facing": "west",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/d05/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_2.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_3.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_4.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_5.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_6.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_7.png"
+        ]
+      },
+      {
+        "property_id": "566",
+        "unit_type": "2 bedrooms",
+        "floor": 16,
+        "sqm": 76,
+        "bed": 2,
+        "bath": 2,
+        "start_price": 705000,
+        "currency": "USD",
+        "weekly_rent": null,
+        "rental_yield": null,
+        "parking_lots": 0,
+        "direction_facing": "north-west",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/d06/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_2.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_3.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_4.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_5.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_6.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_7.png"
+        ]
+      },
+      {
+        "property_id": "568",
+        "unit_type": "2 bedrooms",
+        "floor": 17,
+        "sqm": 80,
+        "bed": 2,
+        "bath": 2,
+        "start_price": 825000,
+        "currency": "USD",
+        "weekly_rent": null,
+        "rental_yield": null,
+        "parking_lots": 1,
+        "direction_facing": "west",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/d08/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_2.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_3.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_4.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_5.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_6.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_7.png"
+        ]
+      },
+      {
+        "property_id": "570",
+        "unit_type": "2 bedrooms",
+        "floor": 18,
+        "sqm": 83,
+        "bed": 2,
+        "bath": 2,
+        "start_price": 667500,
+        "currency": "USD",
+        "weekly_rent": null,
+        "rental_yield": null,
+        "parking_lots": 0,
+        "direction_facing": "east",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/d09/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_2.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_3.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_4.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_5.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_6.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_7.png"
+        ]
+      },
+      {
+        "property_id": "572",
+        "unit_type": "2 bedrooms",
+        "floor": 18,
+        "sqm": 77,
+        "bed": 2,
+        "bath": 2,
+        "start_price": 622500,
+        "currency": "USD",
+        "weekly_rent": null,
+        "rental_yield": null,
+        "parking_lots": 0,
+        "direction_facing": "east",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/d10/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_2.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_3.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_4.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_5.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_6.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_7.png"
+        ]
+      },
+      {
+        "property_id": "574",
+        "unit_type": "2 bedrooms",
+        "floor": 19,
+        "sqm": 83,
+        "bed": 2,
+        "bath": 2,
+        "start_price": 783750,
+        "currency": "USD",
+        "weekly_rent": null,
+        "rental_yield": null,
+        "parking_lots": 0,
+        "direction_facing": "south-east",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/d11/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_2.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_3.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_4.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_5.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_6.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_7.png"
+        ]
+      },
+      {
+        "property_id": "576",
+        "unit_type": "2 bedrooms",
+        "floor": 25,
+        "sqm": 96,
+        "bed": 2,
+        "bath": 2,
+        "start_price": 926250,
+        "currency": "USD",
+        "weekly_rent": null,
+        "rental_yield": null,
+        "parking_lots": 0,
+        "direction_facing": "east",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/s02/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_2.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_3.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_4.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_5.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_6.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_7.png"
+        ]
+      },
+      {
+        "property_id": "578",
+        "unit_type": "2 bedrooms",
+        "floor": 3,
+        "sqm": 69,
+        "bed": 2,
+        "bath": 2,
+        "start_price": 495000,
+        "currency": "USD",
+        "weekly_rent": null,
+        "rental_yield": null,
+        "parking_lots": 0,
+        "direction_facing": "west",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/c01/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_2.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_3.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_4.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_5.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_6.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_7.png"
+        ]
+      },
+      {
+        "property_id": "579",
+        "unit_type": "2 bedrooms",
+        "floor": 16,
+        "sqm": 68,
+        "bed": 2,
+        "bath": 2,
+        "start_price": 541875,
+        "currency": "USD",
+        "weekly_rent": null,
+        "rental_yield": null,
+        "parking_lots": 0,
+        "direction_facing": "south",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/c03/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_2.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_3.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_4.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_5.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_6.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_7.png"
+        ]
+      },
+      {
+        "property_id": "580",
+        "unit_type": "2 bedrooms",
+        "floor": 10,
+        "sqm": 67,
+        "bed": 2,
+        "bath": 2,
+        "start_price": 536250,
+        "currency": "USD",
+        "weekly_rent": null,
+        "rental_yield": null,
+        "parking_lots": 0,
+        "direction_facing": "south",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/c04/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_2.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_3.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_4.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_5.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_6.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_7.png"
+        ]
+      },
+      {
+        "property_id": "581",
+        "unit_type": "2 bedrooms",
+        "floor": 17,
+        "sqm": 109,
+        "bed": 2,
+        "bath": 2,
+        "start_price": 967500,
+        "currency": "USD",
+        "weekly_rent": null,
+        "rental_yield": null,
+        "parking_lots": 0,
+        "direction_facing": "south-west",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/adt01/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_2.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_3.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_4.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_5.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_6.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_7.png"
+        ]
+      },
+      {
+        "property_id": "583",
+        "unit_type": "2 bedrooms",
+        "floor": 7,
+        "sqm": 89,
+        "bed": 2,
+        "bath": 2,
+        "start_price": 675000,
+        "currency": "USD",
+        "weekly_rent": null,
+        "rental_yield": null,
+        "parking_lots": 0,
+        "direction_facing": "south-west",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/adt02/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_2.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_3.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_4.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_5.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_6.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_7.png"
+        ]
+      },
+      {
+        "property_id": "585",
+        "unit_type": "2 bedrooms",
+        "floor": 14,
+        "sqm": 89,
+        "bed": 2,
+        "bath": 2,
+        "start_price": 750000,
+        "currency": "USD",
+        "weekly_rent": null,
+        "rental_yield": null,
+        "parking_lots": 0,
+        "direction_facing": "south-west",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/adt02/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_2.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_3.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_4.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_5.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_6.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_7.png"
+        ]
+      },
+      {
+        "property_id": "586",
+        "unit_type": "3 bedrooms",
+        "floor": 19,
+        "sqm": 107,
+        "bed": 3,
+        "bath": 2,
+        "start_price": 1091250,
+        "currency": "USD",
+        "weekly_rent": null,
+        "rental_yield": null,
+        "parking_lots": 0,
+        "direction_facing": "north-west",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/e01/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_2.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_3.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_4.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_5.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_6.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_7.png"
+        ]
+      },
+      {
+        "property_id": "588",
+        "unit_type": "3 bedrooms",
+        "floor": 17,
+        "sqm": 99,
+        "bed": 3,
+        "bath": 2,
+        "start_price": 986250,
+        "currency": "USD",
+        "weekly_rent": null,
+        "rental_yield": null,
+        "parking_lots": 0,
+        "direction_facing": "north-east",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/e02/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_2.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_3.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_4.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_5.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_6.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_7.png"
+        ]
+      },
+      {
+        "property_id": "590",
+        "unit_type": "3 bedrooms",
+        "floor": 22,
+        "sqm": 115,
+        "bed": 3,
+        "bath": 2,
+        "start_price": 1095000,
+        "currency": "USD",
+        "weekly_rent": null,
+        "rental_yield": null,
+        "parking_lots": 0,
+        "direction_facing": "south-east",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/s03/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_2.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_3.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_4.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_5.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_6.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_7.png"
+        ]
+      },
+      {
+        "property_id": "592",
+        "unit_type": "3 bedrooms",
+        "floor": 25,
+        "sqm": 115,
+        "bed": 3,
+        "bath": 2,
+        "start_price": 1173750,
+        "currency": "USD",
+        "weekly_rent": null,
+        "rental_yield": null,
+        "parking_lots": 0,
+        "direction_facing": "south-east",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/s03/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_2.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_3.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_4.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_5.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_6.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_7.png"
+        ]
+      },
+      {
+        "property_id": "593",
+        "unit_type": "3 bedrooms",
+        "floor": 21,
+        "sqm": 117,
+        "bed": 3,
+        "bath": 2,
+        "start_price": 1237500,
+        "currency": "USD",
+        "weekly_rent": null,
+        "rental_yield": null,
+        "parking_lots": 0,
+        "direction_facing": "west",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/e04/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_2.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_3.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_4.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_5.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_6.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_7.png"
+        ]
+      },
+      {
+        "property_id": "595",
+        "unit_type": "3 bedrooms",
+        "floor": 24,
+        "sqm": 115,
+        "bed": 3,
+        "bath": 2,
+        "start_price": 1237500,
+        "currency": "USD",
+        "weekly_rent": null,
+        "rental_yield": null,
+        "parking_lots": 0,
+        "direction_facing": "north-west",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/e05/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_2.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_3.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_4.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_5.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_6.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_7.png"
+        ]
+      },
+      {
+        "property_id": "597",
+        "unit_type": "3 bedrooms",
+        "floor": 21,
+        "sqm": 158,
+        "bed": 3,
+        "bath": 3,
+        "start_price": 1526250,
+        "currency": "USD",
+        "weekly_rent": null,
+        "rental_yield": null,
+        "parking_lots": 0,
+        "direction_facing": "north-east",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/s01/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_2.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_3.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_4.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_5.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_6.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_7.png"
+        ]
+      },
+      {
+        "property_id": "599",
+        "unit_type": "Penthouse",
+        "floor": 26,
+        "sqm": 207,
+        "bed": 3,
+        "bath": 4,
+        "start_price": 2640000,
+        "currency": "USD",
+        "weekly_rent": null,
+        "rental_yield": null,
+        "parking_lots": 0,
+        "direction_facing": "north-east",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/p02/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_2.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_3.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_4.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_5.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_6.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_7.png"
+        ]
+      },
+      {
+        "property_id": "601",
+        "unit_type": "Penthouse",
+        "floor": 26,
+        "sqm": 158,
+        "bed": 3,
+        "bath": 4,
+        "start_price": 2043750,
+        "currency": "USD",
+        "weekly_rent": null,
+        "rental_yield": null,
+        "parking_lots": 0,
+        "direction_facing": "south-east",
+        "images": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/p03/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_1.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_2.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_3.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_4.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_5.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_6.png",
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/units/common/image_7.png"
+        ]
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/embed/80gaTpbv9x8",
+        "type": "youtube",
+        "header_text": "Video intro"
+      },
+      {
+        "url": "https://www.youtube.com/embed/iLq7TF51RzA",
+        "type": "youtube",
+        "header_text": "Completed project"
+      }
+    ],
+    "team_behind": {
+      "developer": {
+        "name": "ECOWORLD-SALCON ",
+        "description": "EcoWorld's proprietary unique flexi-space concept features adaptable layouts and double-volume spaces, inviting you to explore creative ways to customise your business. The spacious set-up encourages shared use, so you can combine a show-room with a service centre, or an electronics shop with a warehouse.",
+        "logos": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/team/ecoworld-logo.png"
+        ],
+        "website": "https://ecoworld.my/"
+      },
+      "architect": {
+        "name": "FENDER KATSALIDIS ARCHITECTS",
+        "description": "Based in Melbourne but working across Australia and internationally, the work of Fender Katsalidis has a unified thread: an intense exploration of the spirit of each place where the studio works, and how its architects can understand, enhance and invigorate those qualities. Recent highly successful projects include the NewActon precinct in Canberra, Australia’s tallest building, Eureka Tower in Melbourne, and cultural icons such as MONA in Hobart.",
+        "logos": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/team/fka-logo.jpeg"
+        ],
+        "website": "https://fkaustralia.com/o.th/"
+      },
+      "builder": {
+        "name": "Hickory",
+        "description": "Hickory was founded in 1991 and has steadily evolved from a family owned company to one of Australia’s preeminent construction groups. Hickory has forged a reputation as an innovative and dynamic company that has grown into a nationwide group of construction, structures, facades, manufacturing, fit out and crane logistics specialists.",
+        "logos": [
+          "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/team/hickory-logo.jpeg"
+        ],
+        "website": "https://www.hickory.com.au/"
+      },
+      "interior_designer": null,
+      "landscaper": null
+    },
+    "completion_status": 1.0,
+    "availability": 0.3,
+    "pricing_description": "Starting from USD 390,000",
+    "bedrooms_description": "Studio, 1, 2 and 3 bedroom and penthouse configurations",
+    "residences_description": "251 units",
+    "estimated_completion": "Completed in late 2020",
+    "units_available": "",
+    "description": "Yarra One located in South Yarra, Melbourne - Home to award-winning dining, high end shopping and leading schools, this exclusive pocket of Melbourne exudes a natural grace and an inherent sense of style. Living here means experiencing the location’s old-world charm and enduring sense of character every day.",
+    "brochure_url": "https://ixk3y98pggm.typeform.com/to/cLfNG4Bi",
+    "images": [
+      {
+        "src": "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/yarra-one-slider-1.jpg",
+        "alt": ""
+      },
+      {
+        "src": "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/yarra-one-slider-7.jpg",
+        "alt": ""
+      },
+      {
+        "src": "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/yarra-one-slider-8.jpg",
+        "alt": ""
+      },
+      {
+        "src": "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/yarra-one-slider-9.jpg",
+        "alt": ""
+      },
+      {
+        "src": "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/yarra-one-slider-10.jpg",
+        "alt": ""
+      },
+      {
+        "src": "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/yarra-one-slider-11.jpg",
+        "alt": ""
+      },
+      {
+        "src": "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/yarra-one-slider-12.jpg",
+        "alt": ""
+      },
+      {
+        "src": "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/yarra-one-slider-13.jpg",
+        "alt": ""
+      },
+      {
+        "src": "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/yarra-one-slider-14.jpg",
+        "alt": ""
+      },
+      {
+        "src": "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/yarra-one-slider-15.jpg",
+        "alt": ""
+      },
+      {
+        "src": "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/yarra-one-slider-16.jpg",
+        "alt": ""
+      },
+      {
+        "src": "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/yarra-one-slider-17.jpg",
+        "alt": ""
+      },
+      {
+        "src": "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/yarra-one-slider-18.jpg",
+        "alt": ""
+      },
+      {
+        "src": "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/yarra-one-slider-19.jpg",
+        "alt": ""
+      },
+      {
+        "src": "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/yarra-one-slider-20.jpg",
+        "alt": ""
+      },
+      {
+        "src": "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/yarra-one-slider-21.jpg",
+        "alt": ""
+      },
+      {
+        "src": "https://pave-prd.s3-ap-southeast-1.amazonaws.com/projects/yarra-one/yarra-one-slider-22.jpg",
+        "alt": ""
+      }
+    ],
+    "breadcrumbs": [
+      {
+        "text": "Australia",
+        "url": "/australia"
+      },
+      {
+        "text": "Yarra One",
+        "url": "/project/yarra-one"
+      }
+    ]
+  }
+]

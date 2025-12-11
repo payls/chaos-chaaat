@@ -1,0 +1,64 @@
+:root {
+  --chaaat-primary-bg-color: #02021e;
+  --chaaat-primary-text-color: #02021e;
+  --chaaat-accent-button-color: #4877ff;
+  --chaaat-accent-button-2-color: transparent;
+  --off-black: #182327;
+}
+
+/****************************************************
+ * Containers
+ *****************************************************/
+.container {
+  max-width: 80%;
+}
+
+/****************************************************
+ * Buttons
+ *****************************************************/
+.btn {
+  border-radius: 0px;
+  font-family: MontserratRegular;
+  font-size: 12px;
+  padding: 0.675rem 2rem;
+}
+.btn-primary {
+  background-color: #091a2b;
+  border-color: #091a2b;
+}
+.btn-outline-primary {
+  color: #091a2b;
+  border-color: #091a2b;
+}
+.btn-selected,
+.btn-primary:hover,
+.btn-outline-primary:hover {
+  color: #fff;
+  background-color: #253e5d;
+  border-color: #253e5d;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #212529;
+}
+.footer {
+  background-color: #a8aeaf;
+}
+/****************************************************
+ * Inputs
+ *****************************************************/
+.form-control {
+  border-radius: 0px;
+  font-size: 12px;
+}
+
+.form-control[readonly] {
+  background-color: #cccccc;
+  pointer-events: none;
+}
+
+/****************************************************
+ * Toastify Custom
+ *****************************************************/
+.Toastify__toast--success {
+  background: var(--chaaat-accent-button-color) !important;
+}

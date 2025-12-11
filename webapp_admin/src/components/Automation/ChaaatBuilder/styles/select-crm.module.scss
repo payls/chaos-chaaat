@@ -1,0 +1,119 @@
+.selectCRMWrapper {
+  &Value {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+    border: 1px solid var(--select-crm-border-color);
+    background: var(--select-crm-bg);
+    padding: 12px;
+    color: var(--sidebar-helper-text);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+  }
+
+  &Selection {
+    animation: showAni 0.1s ease-in;
+    position: relative;
+    background: var(--border-gradient);
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 16px 12px;
+    &::after {
+      content: '';
+      position: absolute;
+      height: calc(100% - 2px);
+      width: calc(100% - 2px);
+      border-radius: 9px;
+      left: 1px;
+      top: 1px;
+      background: var(--sidebar-gradient-background);
+      background-color: #fff;
+      z-index: 0;
+    }
+
+    &Content {
+      border-radius: 8px;
+      background: #fff;
+      padding: 16px 12px;
+      position: relative;
+      z-index: 1;
+
+      &Items {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;
+
+        &:not(:last-child) {
+          margin-bottom: 15px;
+        }
+
+        &List {
+          color: var(--sidebar-helper-text);
+          font-family: Montserrat;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+
+          &.active {
+            &:hover {
+              color: var(--off-black);
+            }
+          }
+
+          &Btn {
+            border: none;
+            padding: 5px 10px;
+            color: var(--side-bar-helper-text);
+            font-family: PoppinsLight;
+            font-size: 12px;
+            font-style: normal;
+            line-height: normal;
+            position: relative;
+            z-index: 1;
+            position: relative;
+            background: var(--border-gradient);
+            border-radius: 23.5px;
+            &::after {
+              content: '';
+              position: absolute;
+              height: calc(100% - 2px);
+              width: calc(100% - 2px);
+              border-radius: 22.5px;
+              left: 1px;
+              top: 1px;
+              background-color: #fff;
+              z-index: -1;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.svgInvert {
+  transform: rotate(180deg);
+}
+
+.gearSmall {
+  display: block;
+  text-align: center;
+  width: 71px;
+  opacity: 0.5;
+}
+
+@keyframes showAni {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

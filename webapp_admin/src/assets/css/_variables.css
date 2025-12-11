@@ -1,0 +1,36 @@
+:root {
+  --chaaat-primary-bg-color: #02021e;
+  --chaaat-primary-text-color: #02021e;
+  --chaaat-accent-button-color: #4877ff;
+  --chaaat-accent-text-color: #4877ff;
+  --chaaat-accent-button-2-color: transparent;
+  --off-black: #182327;
+  --gray-text: #919499;
+  --border-gradient: linear-gradient(
+    90deg,
+    rgba(72, 119, 255, 1) 0%,
+    rgba(97, 112, 244, 1) 21%,
+    rgba(155, 96, 219, 1) 91%
+  );
+
+  /* Sidebar */
+  --sidebar-background-color: #fafafa;
+  --sidebar-gradient-background: linear-gradient(
+    73deg,
+    rgba(41, 242, 188, 0.1) -79.22%,
+    rgba(72, 119, 255, 0.1) 49.7%,
+    rgba(249, 69, 179, 0.1) 178.62%
+  );
+  --sidebar-select-border-color: #e0e0e0;
+  --sidebar-helper-text: #a7a7a7;
+
+  --select-crm-bg: #fff;
+  --select-crm-border-color: #e0e0e0;
+
+  --btn-gradient-bg: linear-gradient(
+    73deg,
+    rgba(41, 242, 188, 0.1) -79.22%,
+    rgba(72, 119, 255, 0.1) 49.7%,
+    rgba(249, 69, 179, 0.1) 178.62%
+  );
+}

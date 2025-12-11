@@ -1,0 +1,194 @@
+# This is a sample build configuration for JavaScript.
+# Check our guides at https://confluence.atlassian.com/x/14UWN for more examples.
+# Only use spaces to indent your .yml configuration.
+# -----
+# You can specify a custom docker image from Docker Hub as your build environment.
+image: atlassian/default-image:2
+
+pipelines:
+  branches:
+    'staging':
+      - step:
+          name: 'Build Production Webapp Admin'
+          image: node:20.13.1
+          caches:
+            - node
+            - npm
+          script:
+            - apt-get update
+            - apt-get install zip -y
+            - npm install -g yarn -f
+            - yarn install
+            - export APP_ENV=$STG_APP_ENV
+            - export GOOGLE_CLIENT_ID=$STG_GOOGLE_CLIENT_ID
+            - export GRAPHQL_APIKEY=$STG_GRAPHQL_APIKEY
+            - export GRAPHQL_AUTHMODE=$STG_GRAPHQL_AUTHMODE
+            - export GRAPHQL_ENDPOINT=$STG_GRAPHQL_ENDPOINT
+            - export GRAPHQL_REGION=$STG_GRAPHQL_REGION
+            - export NEXT_PUBLIC_ADMIN_URL=$STG_NEXT_PUBLIC_ADMIN_URL
+            - export NEXT_PUBLIC_API_URL=$STG_NEXT_PUBLIC_API_URL
+            - export NEXT_PUBLIC_APP_ENV=$STG_NEXT_PUBLIC_APP_ENV
+            - export NEXT_PUBLIC_CDNURLS=$STG_NEXT_PUBLIC_CDNURLS
+            - export NEXT_PUBLIC_COMPONENT_TOKEN=$STG_NEXT_PUBLIC_COMPONENT_TOKEN
+            - export NEXT_PUBLIC_INTEGRATION_URL=$STG_NEXT_PUBLIC_INTEGRATION_URL
+            - export NEXT_PUBLIC_LIVECHATCSS=$STG_NEXT_PUBLIC_LIVECHATCSS
+            - export NEXT_PUBLIC_LIVECHATJS=$STG_NEXT_PUBLIC_LIVECHATJS
+            - export NEXT_PUBLIC_SIGNUP_URL=$STG_NEXT_PUBLIC_SIGNUP_URL
+            - export NEXT_PUBLIC_TINYMCE_APIKEY=$STG_NEXT_PUBLIC_TINYMCE_APIKEY
+            - export NEXT_PUBLIC_WEB_URL=$STG_NEXT_PUBLIC_WEB_URL
+            - export NEXT_PUBLIC_WABA_WEBHOOK_URL=$STG_NEXT_PUBLIC_WABA_WEBHOOK_URL
+            - export NEXT_PUBLIC_TRIAL_PRICE=$STG_NEXT_PUBLIC_TRIAL_PRICE
+            - export NEXT_PUBLIC_BETA_USER_PRICE=$STG_NEXT_PUBLIC_BETA_USER_PRICE
+            - export NEXT_PUBLIC_STARTER_PRICE=$STG_NEXT_PUBLIC_STARTER_PRICE
+            - export NEXT_PUBLIC_PRO_PRICE=$STG_NEXT_PUBLIC_PRO_PRICE
+            - export NEXT_PUBLIC_PARTNER_AGENCY_LIST=$STG_NEXT_PUBLIC_PARTNER_AGENCY_LIST
+            - export NEXT_PUBLIC_TEC_AGENCY_LIST=$STG_NEXT_PUBLIC_TEC_AGENCY_LIST
+            - export NODE_ENV=$STG_NODE_ENV
+            - NODE_ENV=production npx next build
+            - zip -r application.zip . --exclude=*.git*
+          artifacts:
+            - application.zip
+      - step:
+          name: 'Deploy to Staging'
+          deployment: staging
+          script:
+            - pipe: atlassian/aws-elasticbeanstalk-deploy:0.5.0
+              variables:
+                AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID_STAGING
+                AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY_STAGING
+                AWS_DEFAULT_REGION: 'ap-southeast-1'
+                APPLICATION_NAME: 'pave-webapp-admin-staging'
+                ENVIRONMENT_NAME: 'chaaat-webapp-admin-staging-node-20-2'
+                ZIP_FILE: 'application.zip'
+                VERSION_LABEL: 'deploy-stg-$BITBUCKET_BUILD_NUMBER-main'
+                WAIT: 'true'
+    'chaaat-master':
+      - step:
+          name: 'Build Production Webapp Admin'
+          image: node:20.13.1
+          caches:
+            - node
+            - npm
+          script:
+            - apt-get update
+            - apt-get install zip -y
+            - npm install -g yarn -f
+            - yarn install
+            - export APP_ENV=$APP_ENV
+            - export GOOGLE_CLIENT_ID=$GOOGLE_CLIENT_ID
+            - export GRAPHQL_APIKEY=$GRAPHQL_APIKEY
+            - export GRAPHQL_AUTHMODE=$GRAPHQL_AUTHMODE
+            - export GRAPHQL_ENDPOINT=$GRAPHQL_ENDPOINT
+            - export GRAPHQL_REGION=$GRAPHQL_REGION
+            - export NEXT_PUBLIC_ADMIN_URL=$NEXT_PUBLIC_ADMIN_URL
+            - export NEXT_PUBLIC_API_URL=$NEXT_PUBLIC_API_URL
+            - export NEXT_PUBLIC_APP_ENV=$NEXT_PUBLIC_APP_ENV
+            - export NEXT_PUBLIC_CDNURLS=$NEXT_PUBLIC_CDNURLS
+            - export NEXT_PUBLIC_COMPONENT_TOKEN=$NEXT_PUBLIC_COMPONENT_TOKEN
+            - export NEXT_PUBLIC_INTEGRATION_URL=$NEXT_PUBLIC_INTEGRATION_URL
+            - export NEXT_PUBLIC_LIVECHATCSS=$NEXT_PUBLIC_LIVECHATCSS
+            - export NEXT_PUBLIC_LIVECHATJS=$NEXT_PUBLIC_LIVECHATJS
+            - export NEXT_PUBLIC_SIGNUP_URL=$NEXT_PUBLIC_SIGNUP_URL
+            - export NEXT_PUBLIC_TINYMCE_APIKEY=$NEXT_PUBLIC_TINYMCE_APIKEY
+            - export NEXT_PUBLIC_WEB_URL=$NEXT_PUBLIC_WEB_URL
+            - export NEXT_PUBLIC_WABA_WEBHOOK_URL=$NEXT_PUBLIC_WABA_WEBHOOK_URL
+            - export NEXT_PUBLIC_TRIAL_PRICE=$NEXT_PUBLIC_TRIAL_PRICE
+            - export NEXT_PUBLIC_BETA_USER_PRICE=$NEXT_PUBLIC_BETA_USER_PRICE
+            - export NEXT_PUBLIC_STARTER_PRICE=$NEXT_PUBLIC_STARTER_PRICE
+            - export NEXT_PUBLIC_PRO_PRICE=$NEXT_PUBLIC_PRO_PRICE
+            - export NEXT_PUBLIC_PARTNER_AGENCY_LIST=$NEXT_PUBLIC_PARTNER_AGENCY_LIST
+            - export NEXT_PUBLIC_TEC_AGENCY_LIST=$NEXT_PUBLIC_TEC_AGENCY_LIST
+            - export NODE_ENV=$NODE_ENV
+            - NODE_ENV=production npx next build
+            - zip -r application.zip . --exclude=*.git*
+          artifacts:
+            - application.zip
+      - step:
+          name: 'Deploy to Chaaat Production'
+          deployment: production
+          script:
+            - pipe: atlassian/aws-elasticbeanstalk-deploy:0.5.0
+              variables:
+                AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID_PRODUCTION
+                AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY_PRODUCTION
+                AWS_DEFAULT_REGION: 'ap-southeast-1'
+                APPLICATION_NAME: 'pave-webapp-admin'
+                ENVIRONMENT_NAME: 'chaaat-webapp-admin-node-20'
+                ZIP_FILE: 'application.zip'
+                VERSION_LABEL: 'deploy-prd-$BITBUCKET_BUILD_NUMBER-main'
+                WAIT: 'true'
+    # temporary deployment
+    'feature/CT-1232':
+      - step:
+          name: 'Build Staging Webapp Admin'
+          image: node:20.13.1
+          caches:
+            - node
+            - npm
+          script:
+            - apt-get update
+            - apt-get install zip -y
+            - npm install -g yarn -f
+            - yarn install
+            - export APP_ENV=$STG_APP_ENV
+            - export GOOGLE_CLIENT_ID=$STG_GOOGLE_CLIENT_ID
+            - export GRAPHQL_APIKEY=$STG_GRAPHQL_APIKEY
+            - export GRAPHQL_AUTHMODE=$STG_GRAPHQL_AUTHMODE
+            - export GRAPHQL_ENDPOINT=$STG_GRAPHQL_ENDPOINT
+            - export GRAPHQL_REGION=$STG_GRAPHQL_REGION
+            - export NEXT_PUBLIC_ADMIN_URL=$STG_NEXT_PUBLIC_ADMIN_URL
+            - export NEXT_PUBLIC_API_URL=$STG_NEXT_PUBLIC_API_URL
+            - export NEXT_PUBLIC_APP_ENV=$STG_NEXT_PUBLIC_APP_ENV
+            - export NEXT_PUBLIC_CDNURLS=$STG_NEXT_PUBLIC_CDNURLS
+            - export NEXT_PUBLIC_COMPONENT_TOKEN=$STG_NEXT_PUBLIC_COMPONENT_TOKEN
+            - export NEXT_PUBLIC_INTEGRATION_URL=$STG_NEXT_PUBLIC_INTEGRATION_URL
+            - export NEXT_PUBLIC_LIVECHATCSS=$STG_NEXT_PUBLIC_LIVECHATCSS
+            - export NEXT_PUBLIC_LIVECHATJS=$STG_NEXT_PUBLIC_LIVECHATJS
+            - export NEXT_PUBLIC_SIGNUP_URL=$STG_NEXT_PUBLIC_SIGNUP_URL
+            - export NEXT_PUBLIC_TINYMCE_APIKEY=$STG_NEXT_PUBLIC_TINYMCE_APIKEY
+            - export NEXT_PUBLIC_WEB_URL=$STG_NEXT_PUBLIC_WEB_URL
+            - export NEXT_PUBLIC_WABA_WEBHOOK_URL=$STG_NEXT_PUBLIC_WABA_WEBHOOK_URL
+            - export NEXT_PUBLIC_TRIAL_PRICE=$STG_NEXT_PUBLIC_TRIAL_PRICE
+            - export NEXT_PUBLIC_BETA_USER_PRICE=$STG_NEXT_PUBLIC_BETA_USER_PRICE
+            - export NEXT_PUBLIC_STARTER_PRICE=$STG_NEXT_PUBLIC_STARTER_PRICE
+            - export NEXT_PUBLIC_PRO_PRICE=$STG_NEXT_PUBLIC_PRO_PRICE
+            - export NEXT_PUBLIC_PARTNER_AGENCY_LIST=$STG_NEXT_PUBLIC_PARTNER_AGENCY_LIST
+            - export NEXT_PUBLIC_TEC_AGENCY_LIST=$STG_NEXT_PUBLIC_TEC_AGENCY_LIST
+            - export NODE_ENV=$STG_NODE_ENV
+            - NODE_ENV=production npx next build
+            - zip -r application.zip . --exclude=*.git*
+          artifacts:
+            - application.zip
+      - step:
+          name: 'Deploy to Staging'
+          deployment: staging
+          script:
+            - pipe: atlassian/aws-elasticbeanstalk-deploy:0.5.0
+              variables:
+                AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID_STAGING
+                AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY_STAGING
+                AWS_DEFAULT_REGION: 'ap-southeast-1'
+                APPLICATION_NAME: 'pave-webapp-admin-staging'
+                ENVIRONMENT_NAME: 'chaaat-webapp-admin-staging-node-20-2'
+                ZIP_FILE: 'application.zip'
+                VERSION_LABEL: 'deploy-stg-$BITBUCKET_BUILD_NUMBER-CT-1232'
+                WAIT: 'true'
+    # '{feature/*,bugfix/*,hotfix/*,release/*}':
+    #   - step:
+    #       name: 'Build Webapp Admin'
+    #       image: node:14.19.0
+    #       caches:
+    #         - node
+    #         - npm
+    #       script:
+    #         - sed -i s/deb.debian.org/archive.debian.org/g /etc/apt/sources.list
+    #         - sed -i 's|security.debian.org|archive.debian.org/|g' /etc/apt/sources.list
+    #         - sed -i '/stretch-updates/d' /etc/apt/sources.list
+    #         - apt-get update
+    #         - apt-get install zip -y
+    #         - npm ci
+    #         - NODE_ENV=staging npx next build
+definitions:
+  caches:
+    npm: ~/.npm
+    cypress: ~/.cache

@@ -1,0 +1,123 @@
+﻿schema {
+  query: Query
+  mutation: Mutation
+  subscription: Subscription
+}
+
+type Mutation {
+  createNotificationMessage(input: CreateNotificationMessageInput!): NotificationMessage
+  deleteNotificationMessage(input: DeleteNotificationMessageInput!): NotificationMessage
+  updateNotificationMessage(input: UpdateNotificationMessageInput!): NotificationMessage
+}
+
+type NotificationMessage {
+  agencyId: String!
+  createdAt: AWSDateTime!
+  data: AWSJSON
+  id: ID!
+  type: String!
+  updatedAt: AWSDateTime!
+}
+
+type NotificationMessageConnection {
+  items: [NotificationMessage]
+  nextToken: String
+}
+
+type Query {
+  getNotificationMessage(id: ID!, type: String!): NotificationMessage
+  listNotificationMessages(filter: TableNotificationMessageFilterInput, limit: Int, nextToken: String): NotificationMessageConnection
+}
+
+type Subscription {
+  onCreateNotificationMessage(agencyId: String, createdAt: AWSDateTime, data: AWSJSON, id: ID, type: String): NotificationMessage @aws_api_key @aws_subscribe(mutations : ["createNotificationMessage"])
+  onDeleteNotificationMessage(agencyId: String, createdAt: AWSDateTime, data: AWSJSON, id: ID, type: String): NotificationMessage @aws_api_key @aws_subscribe(mutations : ["deleteNotificationMessage"])
+  onNotificationMessageByAgencyId(agencyId: String!): NotificationMessage @aws_api_key @aws_iam @aws_subscribe(mutations : ["createNotificationMessage"])
+  onUpdateNotificationMessage(agencyId: String, createdAt: AWSDateTime, data: AWSJSON, id: ID, type: String): NotificationMessage @aws_api_key @aws_subscribe(mutations : ["updateNotificationMessage"])
+}
+
+input CreateNotificationMessageInput {
+  agencyId: String!
+  createdAt: AWSDateTime!
+  data: AWSJSON
+  id: ID!
+  type: String!
+  updatedAt: AWSDateTime!
+}
+
+input DeleteNotificationMessageInput {
+  id: ID!
+  type: String!
+}
+
+input TableBooleanFilterInput {
+  eq: Boolean
+  ne: Boolean
+}
+
+input TableFloatFilterInput {
+  between: [Float]
+  contains: Float
+  eq: Float
+  ge: Float
+  gt: Float
+  le: Float
+  lt: Float
+  ne: Float
+  notContains: Float
+}
+
+input TableIDFilterInput {
+  beginsWith: ID
+  between: [ID]
+  contains: ID
+  eq: ID
+  ge: ID
+  gt: ID
+  le: ID
+  lt: ID
+  ne: ID
+  notContains: ID
+}
+
+input TableIntFilterInput {
+  between: [Int]
+  contains: Int
+  eq: Int
+  ge: Int
+  gt: Int
+  le: Int
+  lt: Int
+  ne: Int
+  notContains: Int
+}
+
+input TableNotificationMessageFilterInput {
+  agencyId: TableStringFilterInput
+  createdAt: TableStringFilterInput
+  id: TableIDFilterInput
+  type: TableStringFilterInput
+  updatedAt: TableStringFilterInput
+}
+
+input TableStringFilterInput {
+  beginsWith: String
+  between: [String]
+  contains: String
+  eq: String
+  ge: String
+  gt: String
+  le: String
+  lt: String
+  ne: String
+  notContains: String
+}
+
+input UpdateNotificationMessageInput {
+  agencyId: String!
+  createdAt: AWSDateTime
+  data: AWSJSON
+  id: ID!
+  type: String!
+  updatedAt: AWSDateTime
+}
