@@ -1,0 +1,20 @@
+const constant = require('../../constants/constant.json');
+module.exports.mockProjectProperty = {
+  project_fk: 'ebe55bb6-49e8-11eb-a0fc-hf7754db1de0',
+  unit_type: '3 room',
+  unit_number: '5',
+  floor: 9,
+  sqm: 989,
+  number_of_bedroom: 3,
+  number_of_bathroom: 3,
+  number_of_parking_lots: 2,
+  direction_facing: constant.DIRECTION.NORTH_EAST,
+  currency_code: 'USD',
+  starting_price: 989000.2,
+  weekly_rent: 1400.0,
+  rental_yield: 2.3,
+  status: constant.PROPERTY.STATUS.PURCHASE_PENDING,
+  is_deleted: 0,
+  created_by: 'fb4663a4-49e8-11eb-a0fc-2147043b1de0',
+  updated_by: 'fb4663a4-49e8-11eb-a0fc-2147043b1de0',
+};
