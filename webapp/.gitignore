@@ -1,0 +1,83 @@
+#Editor
+.vscode
+.tern-project
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+logs/*
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE configuration #
+#####################
+.idea*
+
+# Node Modules #
+#####################
+node_modules/*
+
+# Temp Upload Dir #
+###################
+temp/upload/*
+
+# Temp Download Dir #
+###################
+!temp/download
+
+# Visual Studio Code #
+######################
+coverage/*
+.nyc_output/*
+
+# others #
+##########
+*___old.*
+public/docs/api/*
+build/*
+.next/*
+
+## ignore environment variables file
+.env
+lglconfig.json
+
+# Docker
+!build/docker
+!build/docker/.env
+
+# Cypress
+cypress/screenshots/*
+cypress/videos/*
+cypress/fixtures/dynamic/*.json
