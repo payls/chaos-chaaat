@@ -1,0 +1,26 @@
+<svg width="159" height="139" viewBox="0 0 159 139" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="7.5" y="5.5" width="145" height="29" rx="1.5" fill="#77A5D7" stroke="#77A5D7"/>
+<line x1="77.4" y1="35" x2="77.4" y2="61" stroke="#77A5D7" stroke-width="0.8" stroke-dasharray="1 1"/>
+<line x1="23" y1="104.6" x2="133" y2="104.6" stroke="#77A5D7" stroke-width="0.8" stroke-dasharray="1 1"/>
+<line x1="77.4" y1="79" x2="77.4" y2="105" stroke="#77A5D7" stroke-width="0.8" stroke-dasharray="1 1"/>
+<line x1="23.4" y1="104" x2="23.4" y2="114" stroke="#77A5D7" stroke-width="0.8" stroke-dasharray="1 1"/>
+<line x1="133.4" y1="104" x2="133.4" y2="114" stroke="#77A5D7" stroke-width="0.8" stroke-dasharray="1 1"/>
+<rect x="5.5" y="0.5" width="144" height="29" rx="1.5" fill="white" stroke="#77A5D7"/>
+<circle cx="23" cy="15" r="11" fill="#D8EBFF"/>
+<g clip-path="url(#clip0_4637_5785)">
+<path d="M26.5383 13.3207L22.5642 10.4065C22.2538 10.1792 21.8865 10.0423 21.503 10.011C21.1196 9.97961 20.7349 10.0551 20.3917 10.229C20.0486 10.4028 19.7602 10.6684 19.5587 10.9961C19.3572 11.3238 19.2503 11.7009 19.25 12.0857V17.9169C19.2494 18.302 19.3557 18.6797 19.557 19.008C19.7584 19.3363 20.0468 19.6023 20.3904 19.7763C20.7339 19.9504 21.119 20.0257 21.5028 19.9939C21.8866 19.962 22.254 19.8243 22.5642 19.5961L26.5383 16.6819C26.802 16.4884 27.0165 16.2355 27.1643 15.9437C27.3121 15.6519 27.3891 15.3294 27.3891 15.0023C27.3891 14.6752 27.3121 14.3527 27.1643 14.0609C27.0165 13.7692 26.802 13.5163 26.5383 13.3227V13.3207Z" fill="white"/>
+</g>
+<rect x="25.5" y="62.5" width="109" height="26" rx="1.5" fill="#77A5D7" stroke="#77A5D7"/>
+<rect x="2.5" y="117.5" width="48" height="21" rx="1.5" fill="#77A5D7" stroke="#77A5D7"/>
+<rect x="110.5" y="117.5" width="48" height="21" rx="1.5" fill="#77A5D7" stroke="#77A5D7"/>
+<rect x="23.5" y="57.5" width="109" height="29" rx="1.5" fill="white" stroke="#77A5D7"/>
+<rect x="0.5" y="114.5" width="48" height="22" rx="1.5" fill="white" stroke="#77A5D7"/>
+<rect x="108.5" y="114.5" width="48" height="22" rx="1.5" fill="white" stroke="#77A5D7"/>
+<line x1="41" y1="14" x2="104" y2="14" stroke="#C8DBF0" stroke-width="2"/>
+<line x1="41" y1="18" x2="64" y2="18" stroke="#C8DBF0" stroke-width="2"/>
+<defs>
+<clipPath id="clip0_4637_5785">
+<rect width="10" height="10" fill="white" transform="translate(18 10)"/>
+</clipPath>
+</defs>
+</svg>

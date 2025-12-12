@@ -1,0 +1,81 @@
+import React, { useState, useRef, useEffect } from 'react';
+import IconSFDCBG from '../ProposalTemplate/Link/preview/components/Icons/IconSFDCBG';
+
+export default function SFDCDropdown({
+  reportMapping,
+  value,
+  label,
+  k,
+  onSelect = () => {},
+}) {
+  const [open, setOpen] = useState(false);
+  const dropdownRef = useRef(null);
+
+  useEffect(() => {
+    Object.keys(reportMapping[0] ?? {}).map((m) => {
+      if (m === label) {
+        onSelect(m);
+      }
+    });
+  }, []);
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+        setOpen(false);
+      }
+    };
+
+    document.addEventListener('mousedown', handleClickOutside);
+
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [dropdownRef]);
+
+  return (
+    <>
+      <div
+        style={{
+          textAlign: 'center',
+          cursor: 'pointer',
+        }}
+        onClick={() => setOpen(!open)}
+      >
+        {value ? value.label : 'Select'}{' '}
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+        >
+          <path
+            d="M18.7108 8.20986C18.6178 8.11613 18.5072 8.04174 18.3854 7.99097C18.2635 7.9402 18.1328 7.91406 18.0008 7.91406C17.8688 7.91406 17.7381 7.9402 17.6162 7.99097C17.4944 8.04174 17.3838 8.11613 17.2908 8.20986L12.7108 12.7899C12.6178 12.8836 12.5072 12.958 12.3854 13.0087C12.2635 13.0595 12.1328 13.0856 12.0008 13.0856C11.8688 13.0856 11.7381 13.0595 11.6162 13.0087C11.4944 12.958 11.3838 12.8836 11.2908 12.7899L6.71079 8.20986C6.61783 8.11613 6.50723 8.04174 6.38537 7.99097C6.26351 7.9402 6.1328 7.91406 6.00079 7.91406C5.86878 7.91406 5.73808 7.9402 5.61622 7.99097C5.49436 8.04174 5.38376 8.11613 5.29079 8.20986C5.10454 8.39722 5 8.65067 5 8.91486C5 9.17904 5.10454 9.4325 5.29079 9.61986L9.88079 14.2098C10.4433 14.7716 11.2058 15.0872 12.0008 15.0872C12.7958 15.0872 13.5583 14.7716 14.1208 14.2098L18.7108 9.61986C18.897 9.4325 19.0016 9.17904 19.0016 8.91486C19.0016 8.65067 18.897 8.39722 18.7108 8.20986Z"
+            fill="#424242"
+          />
+        </svg>
+      </div>
+      {open && (
+        <div className={`drpdwn-n`} ref={dropdownRef}>
+          <IconSFDCBG k={k} />
+          <div>
+            <h3>Select SFDC Field</h3>
+            <ul className="drpdwn-n-items">
+              {Object.keys(reportMapping[0] ?? {}).map((m) => (
+                <li
+                  onClick={() => {
+                    onSelect(m);
+                    setOpen(false);
+                  }}
+                >
+                  {m}
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      )}
+    </>
+  );
+}
